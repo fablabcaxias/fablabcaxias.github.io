@@ -1,15 +1,16 @@
-- name: "multicam-2000"
-  image: /img/machines/machines_1.jpg
-  title: Multicam 2000
+- name: "Laser"
+  image: /img/machines/ls01.bmp
+  title: Cortadora a laser
   machineprops:
-    brand: Multicam
-    power: 400
-    work area: 1500mm x 3000mm
-    materials: wood (30mm), methacrylate or perspex (30mm), cardboard (40mm), paper, fabrics, non-PVC acrylics and other organic materials
-    file type: Autocad, JPG & BMP for rastering
+    brand: RDWorks
+    power: 130 Watts
+    work area: 1200mm x 900mm
+    materials: madeira (12mm), methacrylate or perspex (12mm), papelão(15), papel, EVA, acrílico sem PVC e outros materiais orgânicos
+    file type: DWG, DXF, JPG & BMP for rastering
     applications: real scale project development such as furniture, structures etc.
   use: FabLab Wiki
   useurl: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
+  
 - name: "precix-11100"
   image: /img/machines/machines_2.jpg
   title: Milling machine – 3 axis Precix 11100 Series
