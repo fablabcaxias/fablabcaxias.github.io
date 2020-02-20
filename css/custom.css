@@ -11,7 +11,7 @@ White:      #FFFFFF
 body {
 	padding-top: 50px;
 	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
-	color: #FFFF00;
+	color: #000000;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
