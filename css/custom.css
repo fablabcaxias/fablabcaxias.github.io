@@ -11,7 +11,7 @@ White:      #FFFFFF
 body {
 	padding-top: 50px;
 	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
-	color: #3d3d3d;
+	color: #FFFF00;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
@@ -185,7 +185,7 @@ iframe {
 /* ==== Navigation =============================================================  Navigation =============== */
 
 .navbar{
-	background-color: black;
+	background-color: blue;
 	color: white;
 }
 .navbar a{
@@ -193,11 +193,11 @@ iframe {
 }
 
 .navbar a:hover{
-	background-color: black;
+	background-color: blue;
 }
 
 .dropdown-menu {
-	background-color: black;
+	background-color: blue;
 }
 
 .dropdown-item:hover{
@@ -397,7 +397,7 @@ iframe {
 	color: white;
     margin-top: 30px;
     padding-top: 23px;
-	background: rgba(0, 0, 0, 0.87);
+	background: rgba(0, 0, 255, 0.87);
 }
 
 #partners a {
