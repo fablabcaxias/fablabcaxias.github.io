@@ -1,5 +1,5 @@
 - name: "Laser"
-  image: /img/machines/ls01.bmp
+  image: /img/machines/LS01.bmp
   title: Cortadora a laser
   machineprops:
     brand: Duplotech
