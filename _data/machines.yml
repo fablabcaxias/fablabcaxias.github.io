@@ -2,7 +2,7 @@
   image: /img/machines/ls01.bmp
   title: Cortadora a laser
   machineprops:
-    brand: RDWorks
+    brand: Duplotech
     power: 130 Watts
     work area: 1200mm x 900mm
     materials: madeira (12mm), methacrylate or perspex (12mm), papelão(15), papel, EVA, acrílico sem PVC e outros materiais orgânicos
@@ -11,19 +11,19 @@
   use: FabLab Wiki
   useurl: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
-- name: "precix-11100"
-  image: /img/machines/machines_2.jpg
-  title: Milling machine – 3 axis Precix 11100 Series
+- name: "zmorph"
+  image: /img/machines/3d01.bmp
+  title: Impressora 3D Zmorph
   machineprops:
-    brand: Precix
-    technology: 3 axis CNC milling machine with interchangeable rotary tool
+    brand: Zmorph
+    technology: Impressora FDM com extrusor Dual Pró Mixing Nose
     power: 3hp
     work area: 1500mm x 3000mm x 300mm
-    materials: Polyurethane foams, cork, wax, wood, MDF, soft materials that can be milled
-    file type: GC, CAM
-    applications: Milling of 3-D models, full scale furniture parts, molding and casting, architectural elements, etc.
-  use: FabLab Wiki
-  useurl: "http://wiki.fablabbcn.org/Precix_Milling"
+    materials: ABS, PLA, PVA, PETG
+    file type: gcode, STL, OBJ
+    applications: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
+  use: Zmorph
+  useurl: "https://zmorph3d.com/"
 - name: "milling-shopbot"
   image: /img/machines/machines_3.jpg
   title: Milling machine –  3 axis ShopBot
