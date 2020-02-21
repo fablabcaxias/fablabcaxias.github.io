@@ -24,28 +24,31 @@
     applications: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Zmorph
   useurl: "https://zmorph3d.com/"
-- name: "milling-shopbot"
-  image: /img/machines/machines_3.jpg
-  title: Milling machine –  3 axis ShopBot
+  
+- name: "cl2pro+"
+  image: /img/machines/3d02.bmp
+  title: Impressora 3D Cliever CL2 Pro+
   machineprops:
-    brand: ShopBot
-    technology: Computerized numerical control (CNC) milling, 3 axis, interchangeable rotary tool
+    brand: Cliever
+    technology: Impressora FDM com um extrusor
     work area: 4270 x 2310 x 1730 mm
-    materials: Polyurethane foams, cork, wax, wood, MDF, soft materials that can be milled
-    file type: GC, CAM
-    applications: Milling of 3-D models, full scale furniture parts, molding and casting, architectural elements, etc.
-  use: FabLab Wiki
-  useurl: "http://wiki.fablabbcn.org/ShopBot"
-- name: "monofab-srm-20"
-  image: /img/machines/machines_14.jpg
-  title: Milling machine Monofab SRM 20
-  brand: Roland Monofab SRM 20
+    materials: ABS, PLA, PVA, PETG
+    file type: CL, STL, OBJ
+    applications: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
+  use: Cliever
+  useurl: "https://www.cliever.com/m/blog"
+  
+- name: "cl2pro"
+  image: /img/machines/3d03.bmp
+  title: Impressora 3D Cliever CL2 Pro
+  brand: Cliever
   machineprops:
     work area: 203.2 x 152.4 x 60.5 mm
-    materials: wood, plastics, HD foam, Wax, copper for circuits, etc.
-    applications: Jewellery, milling wax molds, copper circuits printing , scanning three-dimensional objects, etc.
-  use: ""
-  useurl: ""
+    materials: ABS, PLA, PVA, PETG
+    applications: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
+  use: Cliever
+  useurl: "https://www.cliever.com/m/blog"
+  
 - name: "vinil-cutter"
   image: /img/machines/machines_5.jpg
   title: Vinyl cutter GX-24 Camm Servo
@@ -59,6 +62,7 @@
     applications: Signage, cutting flexible electronic circuits, cutting patterns, etc.
   use: ""
   useurl: ""
+  
 - name: "epilog-xt-36"
   image: /img/machines/machines_6.jpg
   title: Laser cutter Epilog XT Legend 36 75w
