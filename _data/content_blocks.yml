@@ -1,3 +1,19 @@
 - headline: Tinkercad
   image: /img/menu/tinkercad.jpg
   url: "tinkercad.com/"
+  
+- headline: Thingiverse
+  image: /img/menu/thingiverse.jpg
+  url: "https://www.thingiverse.com/"
+
+- headline: Boxes.py
+  image: /img/menu/boxespy.jpg
+  url: "festi.info/boxes.py"
+  
+- headline: 3Axis.co
+  image: /img/menu/3axisco.jpg
+  url: "3Axis.co"
+
+- headline: Ponoko
+  image: /img/menu/ponoko.jpg
+  url: "https://www.ponoko.com/free-laser-cutting-files-templates"
