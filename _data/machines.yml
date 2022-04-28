@@ -50,7 +50,7 @@
   useurl: "https://www.cliever.com/m/blog"
   
 - name: "vinil-cutter"
-  image: /img/machines/machines_5.jpg
+  image: /img/machines/vc01.bmp
   title: Plotter de recorte de adesivos Graphtec CE6000-60
   machineprops:
     brand: Graphtec CE6000-60
@@ -64,7 +64,7 @@
   useurl: ""
   
 - name: "vacuumforming"
-  image: /img/machines/machines_16.jpg
+  image: /img/machines/vf01.bmp
   title: Termoformadora a vácuo
   machineprops:
     brand: Instaforma
