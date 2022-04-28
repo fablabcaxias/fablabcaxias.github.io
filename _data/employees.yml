@@ -1,6 +1,20 @@
-- name: Tomas Diez
-  image: img/team/tomas__.jpg
-  title: Fab City Research Lab Director / Smart Citizen Co-founder / MaCT Senior Faculty
+- name: Dennison Siqueira
+  image: img/team/dennison.jpg
+  title: Guru / Instrutor da Firjan SENAI Caxias
   fb: https://www.facebook.com/tomasdiez77?hc_ref=NEWSFEED
   twitter: https://twitter.com/tomasdiez
   linkedin: https://es.linkedin.com/pub/tomas-diez/11/7aa/2b3
+
+- name: Gustavo Fabrone
+  image: img/team/gustavo.jpg
+  title: Guru / Instrutor da Firjan SENAI Caxias
+  fb: https://www.facebook.com/gustavodutra.fabrone
+  linkedin: https://www.linkedin.com/in/gustavo-fabrone-411443180
+
+- name: Estevão Paes Leme
+  image: img/team/estevao.jpg
+  title: Fab City Research Lab Director / Técnico de educação da Firjan SENAI Caxias
+  fb: https://www.facebook.com/tomasdiez77?hc_ref=NEWSFEED
+  twitter: https://twitter.com/tomasdiez
+  linkedin: https://es.linkedin.com/pub/tomas-diez/11/7aa/2b3
+
