@@ -2,13 +2,12 @@
   image: /img/menu/tinkercad.jpg
   url: "tinkercad.com/"
   
-  
 - headline: Thingiverse
   image: /img/menu/thingiverse.jpg
   url: "https://www.thingiverse.com/"
 
 - headline: Boxes.py
-  image: /img/menu/boxespy.jpg
+  image: /img/menu/boxes.py.jpg
   url: "festi.info/boxes.py"
   
 - headline: 3Axis.co
@@ -19,6 +18,6 @@
   image: /img/menu/ponoko.jpg
   url: "https://www.ponoko.com/free-laser-cutting-files-templates"
 
-- headline: Ponoko
+- headline: Library laser
   image: /img/menu/librarylaser.jpg
   url: "  https://www.librarylaser.com/en/free-laser-cut-files-3"
