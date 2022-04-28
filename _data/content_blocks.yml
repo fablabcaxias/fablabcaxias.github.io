@@ -10,6 +10,14 @@
   image: /img/menu/boxes.py.jpg
   url: "festi.info/boxes.py"
   
+- headline: Makercase
+  image: /img/menu/makercase.jpg
+  url: "https://pt.makercase.com/#/"
+  
+- headline: Templatemaker
+  image: /img/menu/templatemaker.jpg
+  url: "https://www.templatemaker.nl/pt/"
+  
 - headline: 3Axis.co
   image: /img/menu/3axisco.jpg
   url: "https://3axis.co/"
