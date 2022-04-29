@@ -56,6 +56,7 @@
   machineprops:
     marca: Roland
     tecnologia: Fresagem CNC
+    potência: 100W
     área de trabalho: 150 x 300 x 300 mm
     materiais: madeiras, plasticos, metais não ferrosos etc.
     aplicações: usinagem de peças de precisão, corte de placas de circuito eletônico etc.
@@ -68,6 +69,7 @@
   machineprops:
     marca: Delta CNC
     tecnologia: Fresagem CNC
+    potência: 3cv
     área de trabalho: 180 x 1200 x 1280 mm
     materiais: madeiras, plasticos, metais não ferrosos etc.
     aplicações: Fabricação de móveis, peças de decoração, estruturas, corte de placas de circuito eletônico etc.
