@@ -1,4 +1,6 @@
-- label: Fab Academy
-  url: "fab_academy.html"
-- label: Fab Lab Visits
+- label: Curso Desenvolvedor de projetos
   url: "open_days.html"
+- label: Visite o Fab Lab
+  url: "open_days.html"
+- label: Oficina de Iniciação
+  url: "fab_academy.html"
