@@ -15,13 +15,13 @@
   image: /img/machines/3d01.bmp
   title: Impressora 3D Zmorph
   machineprops:
-    brand: Zmorph
-    technology: Impressora FDM com extrusor Dual Pró Mixing Nose
-    power: 3hp
-    work area: 1500mm x 3000mm x 300mm
-    materials: ABS, PLA, PVA, PETG
-    file type: gcode, STL, OBJ
-    applications: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
+    marca: Zmorph
+    tecnologia: Impressora FDM com extrusor Dual Pró Mixing Nose
+    potência: 3hp
+    área de trabalho: 1500mm x 3000mm x 300mm
+    materiais: ABS, PLA, PVA, PETG
+    tipos de arquivo: gcode, STL, OBJ
+    aplicações: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Zmorph
   useurl: "https://zmorph3d.com/"
   
