@@ -1,74 +1,75 @@
 - name: "Laser"
-  image: /img/machines/LS01.bmp
+  image: /img/machines/laser.jpg
   title: Cortadora a laser
   machineprops:
-    brand: Duplotech
-    power: 130 Watts
-    work area: 1200mm x 900mm
-    materials: madeira (12mm), methacrylate or perspex (12mm), papelão(15), papel, EVA, acrílico sem PVC e outros materiais orgânicos
-    file type: DWG, DXF, JPG & BMP for rastering
-    applications: real scale project development such as furniture, structures etc.
+    marca: Duplotech
+    potência: 130 Watts
+    área de trabalho: 1200mm x 900mm
+    materiais: MDF, papelão, tecido, couro, papel, EVA, acrílico sem PVC e outros materiais orgânicos
+    file type: DXF
+    applications: projetos em escala real como móveis e estruturas.
   use: FabLab Wiki
   useurl: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
 - name: "zmorph"
-  image: /img/machines/3d01.bmp
+  image: /img/machines/zmorph.jpg
   title: Impressora 3D Zmorph
   machineprops:
     marca: Zmorph
     tecnologia: Impressora FDM com extrusor Dual Pró Mixing Nose
-    potência: 3hp
-    área de trabalho: 1500mm x 3000mm x 300mm
+    temperatura máxima: 250°C
+    área de trabalho: 165 x 300 x 300mm
     materiais: ABS, PLA, PVA, PETG
     tipos de arquivo: gcode, STL, OBJ
-    aplicações: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
+    aplicações: impressão de modelos 3D, engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Zmorph
   useurl: "https://zmorph3d.com/"
   
 - name: "cl2pro+"
-  image: /img/machines/3d02.bmp
+  image: /img/machines/cliever1.jpg
   title: Impressora 3D Cliever CL2 Pro+
   machineprops:
-    brand: Cliever
-    technology: Impressora FDM com um extrusor
-    work area: 4270 x 2310 x 1730 mm
-    materials: ABS, PLA, PVA, PETG
+    marca: Cliever
+    tecnologia: Impressora FDM com um extrusor
+    área de trabalho: 500 x 250 x 250 mm
+    materials: PLA, PVA, PETG
     file type: CL, STL, OBJ
-    applications: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
+    applications: impressão de modelos 3D, engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Cliever
   useurl: "https://www.cliever.com/m/blog"
   
 - name: "cl2pro"
-  image: /img/machines/3d03.bmp
+  image: /img/machines/cliever2.jpg
   title: Impressora 3D Cliever CL2 Pro
-  brand: Cliever
   machineprops:
-    work area: 203.2 x 152.4 x 60.5 mm
-    materials: ABS, PLA, PVA, PETG
-    applications: Impressão de modelos 3D, Engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
+    marca: Cliever
+    tecnologia: Impressora FDM com dois extrusores
+    área de trabalho: 250 x 250 x 250 mm
+    materiais: PLA, PVA, PETG
+    aplicações: impressão de modelos 3D, engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Cliever
   useurl: "https://www.cliever.com/m/blog"
   
 - name: "vinil-cutter"
-  image: /img/machines/vc01.bmp
-  title: Plotter de recorte de adesivos Graphtec CE6000-60
+  image: /img/machines/vinil.jpg
+  title: Plotter de recorte de adesivos CE6000-60
   machineprops:
-    brand: Graphtec CE6000-60
-    technology: Lâminas de precisão
-    materials: Vinil, folhas de plástico e outros materiais
-    cut length: 25 m (max)
-    cut width: 50-700 mm
-    cut force: ----
-    applications: Signage, cutting flexible electronic circuits, cutting patterns, etc.
+    marca: Graphtec
+    tecnologia: Lâminas de precisão
+    materiais: Vinil, folhas de plástico e outros materiais
+    comprimento : 25 m (max)
+    largura do corte: 50-700 mm
+    força de corte: ----
+    aplicações: recorte de adesivos, papel e circuitos eletrônicos flexíveis.
   use: ""
   useurl: ""
   
 - name: "vacuumforming"
-  image: /img/machines/vf01.bmp
-  title: Termoformadora a vácuo
+  image: /img/machines/vacuum.jpg
+  title: Termoformadora
   machineprops:
-    brand: Instaforma
-    model: ----
-    applications: Criação de moldes, embalagens, carenagens etc.
+    marca: Instaforma
+    tecnologia: conformação a vácuio de termoplásticos
+    aplicações: criação de moldes, embalagens, carenagens etc.
   use: ""
   useurl: ""
