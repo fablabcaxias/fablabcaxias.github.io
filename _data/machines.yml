@@ -49,14 +49,38 @@
     aplicações: impressão de modelos 3D, engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Cliever
   useurl: "https://www.cliever.com/m/blog"
+    
+- name: "cnc1"
+  image: /img/machines/roland.jpg
+  title: Mini fresadora CNC MDX-40A
+  machineprops:
+    marca: Roland
+    tecnologia: Fresagem CNC
+    área de trabalho: 150 x 300 x 300 mm
+    materiais: madeiras, plasticos, metais não ferrosos etc.
+    aplicações: usinagem de peças de precisão, corte de placas de circuito eletônico etc.
+  use: ""
+  useurl: ""
+  
+- name: "cnc2"
+  image: /img/machines/router.jpg
+  title: Router CNC
+  machineprops:
+    marca: Delta CNC
+    tecnologia: Fresagem CNC
+    área de trabalho: 180 x 1200 x 1280 mm
+    materiais: madeiras, plasticos, metais não ferrosos etc.
+    aplicações: Fabricação de móveis, peças de decoração, estruturas, corte de placas de circuito eletônico etc.
+  use: ""
+  useurl: ""
   
 - name: "vinil-cutter"
-  image: /img/machines/vinil.jpg
-  title: Plotter de recorte de adesivos CE6000-60
+  image: /img/machines/cutter.jpg
+  title: Plotter de recorte CE6000-60
   machineprops:
     marca: Graphtec
     tecnologia: Lâminas de precisão
-    materiais: Vinil, folhas de plástico e outros materiais
+    materiais: vinil, folhas de plástico e outros materiais
     comprimento : 25 m (max)
     largura do corte: 50-700 mm
     força de corte: ----
@@ -69,7 +93,7 @@
   title: Termoformadora
   machineprops:
     marca: Instaforma
-    tecnologia: conformação a vácuio de termoplásticos
+    tecnologia: conformação a vácuo de termoplásticos
     aplicações: criação de moldes, embalagens, carenagens etc.
   use: ""
   useurl: ""
