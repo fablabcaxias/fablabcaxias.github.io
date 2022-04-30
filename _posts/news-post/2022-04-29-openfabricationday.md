@@ -1,8 +1,8 @@
 ---
 layout: blog_post
 type: event
-teaserlatest: blog_loop_latest/eumakerweeksmall.png
-teaserlist: blog_loop_latest/eumakerweeksmall.png
+teaserlatest: exemplo/openday.jpg
+teaserlist: exemplo/openday.jpg
 title: Open Fabrication Day
 meta: "Friday June 3rd from 16h to 20h, come to Fab Lab Barcelona and fabricate!"
 author: Maria Ustarroz
@@ -19,28 +19,28 @@ category: event
 <ul><img src= "http://www.fablabbcn.org/img/blog/blog_loop_latest/eumakerweeksmall.png" align="middle"> </img></ul>
 
 <br>
-El próximo viernes 3 de Junio, celebramos el European Maker Week Open Fabrication Day en Fab Lab Barcelona. Ven y aprende cómo imprimir en 3D y usar la cortadora láser. Sólo tienes que seguir estos pasos:<br>
+El prÃ³ximo viernes 3 de Junio, celebramos el European Maker Week Open Fabrication Day en Fab Lab Barcelona. Ven y aprende cÃ³mo imprimir en 3D y usar la cortadora lÃ¡ser. SÃ³lo tienes que seguir estos pasos:<br>
 <br>
 <ul>
-1.<a href="https://docs.google.com/forms/d/1MJAREBja3GWx8qnD0lgA_QXMdN3wVR_UNkfZn3Ms-sU/viewform?edit_requested=true"> Regístrate</a> <br>
-2.<a href="http://fablabbarcelona.simplybook.it/sheduler/manage/event/3/unit/1"> Reserva la máquina que quieres usar</a><br>
-3. Diseña lo que quieras hacer y comprueba los ficheros:
+1.<a href="https://docs.google.com/forms/d/1MJAREBja3GWx8qnD0lgA_QXMdN3wVR_UNkfZn3Ms-sU/viewform?edit_requested=true"> RegÃ­strate</a> <br>
+2.<a href="http://fablabbarcelona.simplybook.it/sheduler/manage/event/3/unit/1"> Reserva la mÃ¡quina que quieres usar</a><br>
+3. DiseÃ±a lo que quieras hacer y comprueba los ficheros:
 
 </ul>
 <br>
 <ul>
 <ul>
-<b>Para cortar a láser:</b> el grosor de las piezas debe ser entre 0.1mm y 5mm<br>
+<b>Para cortar a lÃ¡ser:</b> el grosor de las piezas debe ser entre 0.1mm y 5mm<br>
 
 - guarda tu archivo en formato .dxf
 
 <br>
 
 <br>
-<b>Para imprimir en 3D:</b> las dimensiones máximas de la pieza deben ser 15cm x 15cm x 15cm<br>
+<b>Para imprimir en 3D:</b> las dimensiones mÃ¡ximas de la pieza deben ser 15cm x 15cm x 15cm<br>
 
 -<a href="https://ultimaker.com/en/products/cura-software"> Descarga Cura</a><br>
-- Guarda tu archivo .stl como archivo .gcode y ajusta los settings para una impresión estándard en PLA, como se ve en la imagen:
+- Guarda tu archivo .stl como archivo .gcode y ajusta los settings para una impresiÃ³n estÃ¡ndard en PLA, como se ve en la imagen:
 
 <ul><img src= "http://www.fablabbcn.org/img/blog/blog_loop_latest/3dsettings.png" align="middle"> </img></ul>
 <br>
