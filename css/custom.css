@@ -410,7 +410,7 @@ iframe {
 
 #footer {
 	text-align: center;
-	background: white;
+	background: blue;
 	padding: 30px 0 30px 0;
 	
 }
@@ -609,7 +609,7 @@ iframe {
 	position: absolute;
 	top: 110px;  
     width: 90%;
-    color: white;
+    color: black;
 
 }
 
