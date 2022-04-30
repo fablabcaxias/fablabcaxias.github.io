@@ -27,5 +27,5 @@ O Open Day é gratuito e aberto ao público, a inscrição é obrigatória, por 
 Exemplo de link <a target="_blank" href="https://www.google.com"><u> aqui </u></a> 
 <br>
 
-<img src="{{site.baseurl}}{{ site.url }}/img/exemplo/openday.jpg">
+<img src="{{site.baseurl}}{{ site.url }}/img/blog/exemplo/openday.jpg">
 
