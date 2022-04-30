@@ -1,7 +1,7 @@
 ---
 layout: project_post
 type: project
-projectimg: projects_loop/ft_dresselate.jpg
+projectimg: img/join_us/join_us_3.jpg
 title: Título do projeto
 meta: Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto.
 author: Nome do autor
@@ -22,4 +22,4 @@ Texto no corpo do post Texto no corpo do post Texto no corpo do post Texto no co
 
 
 
-<img src="{{site.baseurl}}{{ site.url }}/img/projects/fabtextiles_dresselate/1.jpg">
+<img src="{{site.baseurl}}{{ site.url }}/img/join_us/join_us_2.jpg">
