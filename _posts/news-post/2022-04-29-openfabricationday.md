@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-type: event
+type: blog
 teaserlatest: exemplo/openday.jpg
 teaserlist: exemplo/openday.jpg
 title: Open Fabrication Day
