@@ -1,7 +1,7 @@
 ---
 layout: project_post
 type: project
-projectimg: img/join_us/join_us_3.jpg
+projectimg: exemplo/openday.jpg
 title: Título do projeto
 meta: Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto Texto que descreve o projeto.
 author: Nome do autor
@@ -20,4 +20,4 @@ Texto no corpo do post Texto no corpo do post Texto no corpo do post Texto no co
 
 
 
-<img src="{{site.baseurl}}{{ site.url }}/img/join_us/join_us_2.jpg">
+<img src="{{site.baseurl}}{{ site.url }}/img/projects/exemplo/openday.jpg">
