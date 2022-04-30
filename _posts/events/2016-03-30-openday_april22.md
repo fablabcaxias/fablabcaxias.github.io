@@ -2,8 +2,8 @@
 
 layout: blog_post
 type: event
-teaserlatest: blog_loop_latest/openday_abril_22.jpg
-teaserlist: blog_loop_latest/openday_abril_22.jpg
+teaserlatest: exemplo/openday.jpg
+teaserlist: exemplo/openday.jpg
 title: Open Day
 meta: Join us for the IaaC Open Day next Friday 22nd of April, with tours, demos, conferences and much more.
 author: Dennison Siqueira
@@ -27,5 +27,5 @@ O Open Day é gratuito e aberto ao público, a inscrição é obrigatória, por 
 Exemplo de link <a target="_blank" href="https://www.google.com"><u> aqui </u></a> 
 <br>
 
-<img src="{{site.baseurl}}{{ site.url }}/img/blog/blog_loop_latest/openday_abril_22.jpg">
+<img src="{{site.baseurl}}{{ site.url }}/img/exemplo/openday.jpg">
 
