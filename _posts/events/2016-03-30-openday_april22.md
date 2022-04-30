@@ -4,10 +4,10 @@ layout: blog_post
 type: event
 teaserlatest: blog_loop_latest/openday_abril_22.jpg
 teaserlist: blog_loop_latest/openday_abril_22.jpg
-title: Open Day // April 22nd
+title: Open Day
 meta: Join us for the IaaC Open Day next Friday 22nd of April, with tours, demos, conferences and much more.
-author: Luciana Asinari
-date: 30/03/2016
+author: Dennison Siqueira
+date: 29/04/2022
 category: Events
 
 ---
@@ -21,10 +21,10 @@ IaaC Open Days are open to anyone interested in pursuing postgraduate studies, t
 Open Days will allow guests to explore the learning facilities and the social life of the Institute. Stay tuned for more news about the program of guided tours, talks and demos.
 <br>
 
-IaaC Open Days are FREE and open to the public, registration is mandatory, please fill this <a target="_blank" href="http://ow.ly/ZwWWo"><u> form </u></a> 
+O Open Day é gratuito e aberto ao público, a inscrição é obrigatória, por favor preencha esse <a target="_blank" href="http://ow.ly/ZwWWo"><u> formulário </u></a> 
 <br>
 
-More info <a target="_blank" href="https://www.facebook.com/events/1719987728247794/"><u> here </u></a> 
+Exemplo de link <a target="_blank" href="https://www.google.com"><u> aqui </u></a> 
 <br>
 
 <img src="{{site.baseurl}}{{ site.url }}/img/blog/blog_loop_latest/openday_abril_22.jpg">
