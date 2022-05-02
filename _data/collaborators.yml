@@ -1,29 +1,29 @@
-- name: "Colab"
+- name: "Colab1"
   logo: /img/collaborations/logoexemplo.png
   url: "http://google.edu/"
   place: above
-  - name: "Colab"
+  - name: "Colab2"
   logo: /img/collaborations/logoexemplo.png
   url: "http://google.edu/"
   place: above
-  - name: "Colab"
+  - name: "Colab3"
   logo: /img/collaborations/logoexemplo.png
   url: "http://google.edu/"
   place: above
-  - name: "Colab"
+  - name: "Colab4"
   logo: /img/collaborations/logoexemplo.png
   url: "http://google.edu/"
   place: above
   
-  - name: "Colab"
+  - name: "Colab5"
   logo: /img/collaborations/logoexemplo.png
   url: "http://google.edu/"
   place: below
-  - name: "Colab"
+  - name: "Colab6"
   logo: /img/collaborations/logoexemplo.png
   url: "http://google.edu/"
   place: below
-  - name: "Colab"
+  - name: "Colab7"
   logo: /img/collaborations/logoexemplo.png
   url: "http://google.edu/"
   place: below
