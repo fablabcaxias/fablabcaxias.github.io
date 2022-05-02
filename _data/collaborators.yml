@@ -1,29 +1,28 @@
-- name: "Colab1"
-  logo: /img/collaborations/logoexemplo.png
-  url: "http://google.edu/"
+- name: "CBA"
+  logo: /img/collaborations/collab_cba.png
+  url: "http://cba.mit.edu/"
   place: above
-  - name: "Colab2"
-  logo: /img/collaborations/logoexemplo.png
-  url: "http://google.edu/"
+- name: "Adjuntament"
+  logo: /img/collaborations/collab_adjuntament.png
+  url: "http://ajuntament.barcelona.cat"
   place: above
-  - name: "Colab3"
-  logo: /img/collaborations/logoexemplo.png
-  url: "http://google.edu/"
+- name: "Fab Foundation"
+  logo: /img/collaborations/collab_fab_foundation.png
+  url: "https://www.fabfoundation.org"
   place: above
-  - name: "Colab4"
-  logo: /img/collaborations/logoexemplo.png
-  url: "http://google.edu/"
+- name: "EU Commission"
+  logo: /img/collaborations/collab_european_com.png
+  url: "http://ec.europa.eu/index_en.htm"
   place: above
-  
-  - name: "Colab5"
-  logo: /img/collaborations/logoexemplo.png
-  url: "http://google.edu/"
+- name: "Organic City"
+  logo: /img/collaborations/collab_organicity.png
+  url: "http://organicity.eu/"
   place: below
-  - name: "Colab6"
-  logo: /img/collaborations/logoexemplo.png
-  url: "http://google.edu/"
+- name: "Made EU"
+  logo: /img/collaborations/collab_made_eu.png
+  url: "http://www.madeat.eu/"
   place: below
-  - name: "Colab7"
-  logo: /img/collaborations/logoexemplo.png
-  url: "http://google.edu/"
+- name: "EASTN"
+  logo: /img/collaborations/collab_eastn.png
+  url: "http://www.eastn.eu/"
   place: below
