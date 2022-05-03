@@ -609,7 +609,8 @@ iframe {
 	position: absolute;
 	top: 110px;  
     width: 90%;
-    color: black;
+    color: white;
+	text-shadow: 0.1em 0.1em 0.2em black
 
 }
 
