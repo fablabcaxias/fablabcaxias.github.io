@@ -608,9 +608,9 @@ iframe {
 #content-blocks h2 {
 	position: absolute;
 	top: 110px;  
-    width: 90%;
-    color: white;
-	text-shadow: 0.1em 0.1em 0.2em black
+    	width: 90%;
+    	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
 
 }
 
@@ -625,9 +625,10 @@ iframe {
 #content-blocks h2 {
 	position: absolute;
 	top: 70px;  
-    width: 90%;
-    color: white;
-    font-size: 2em;
+    	width: 90%;
+    	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+    	font-size: 2em;
 }
 
 }
