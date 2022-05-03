@@ -409,7 +409,7 @@ iframe {
 /* ======= Footer ================== */
 
 #footer {
-	text-align: center;
+	text-align: left;
 	background: blue;
 	padding: 30px 0 30px 0;
 	
