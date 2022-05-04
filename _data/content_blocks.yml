@@ -1,6 +1,6 @@
 - headline: Tinkercad
   image: /img/menu/tinkercad.jpg
-  url: "tinkercad.com/"
+  url: "https://www.tinkercad.com/"
   
 - headline: Thingiverse
   image: /img/menu/thingiverse.jpg
@@ -12,7 +12,7 @@
 
 - headline: Boxes.py
   image: /img/menu/boxes.py.jpg
-  url: "festi.info/boxes.py"
+  url: "https://www.festi.info/boxes.py"
   
 - headline: Makercase
   image: /img/menu/makercase.jpg
