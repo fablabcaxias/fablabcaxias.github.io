@@ -1,8 +1,8 @@
 ---
 layout: blog_post
 type: blog
-teaserlatest: exemplo/openday.jpg
-teaserlist: exemplo/openday.jpg
+teaserlatest: exemplo/full-printed.png
+teaserlist: exemplo/full-printed.png
 title: Full printed
 meta: "Assista ao vídeo criado pelo Fab Lab Barcelona e saiba melhor como a rede Fab Lab conecta pessoas ao redor do mundo."
 author: Dennison Siqueira
