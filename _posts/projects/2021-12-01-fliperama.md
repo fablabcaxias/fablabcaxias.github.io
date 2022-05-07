@@ -34,6 +34,5 @@ date: 2021-12-01
 
 <br>
 <iframe width="853" height="480" src="https://www.youtube.com/embed/QuDy0whLy-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br>
 <img src="{{site.baseurl}}{{ site.url }}/img/projects/exemplo/openday.jpg">
