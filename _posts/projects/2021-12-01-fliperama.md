@@ -24,11 +24,16 @@ date: 2021-12-01
 <li>1 caixinha de som para PC opcional</li>
 </ul>
 <br>
-<P>O processo de fabricação foi demonstrado em live no Openday Virtual e você pode assistir no <a target="_blank" href="https://www.google.com"><u>Youtube</u></a>.</P>
+<P>O processo de fabricação foi demonstrado em live no Openday Virtual e você pode assistir no <a target="_blank" href="https://www.youtube.com/watch?v=QuDy0whLy-U"><u>Youtube</u></a>.</P>
+
+<br>
 <P>O Fliperama está em exposição no Fab Lab Caxias e os visitantes podem jogar nas raríssimas horas vagas. </P>
+
+<br>
 <P>Faça o download dos arquivos para fabricação clicando <a target="_blank" href="https://www.google.com"><u> aqui </u></a> .</P>
 
-
+<br>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/QuDy0whLy-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 <img src="{{site.baseurl}}{{ site.url }}/img/projects/exemplo/openday.jpg">
