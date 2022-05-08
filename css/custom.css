@@ -875,6 +875,25 @@ iframe {
 	white-space: nowrap;
 	width: auto;}
 
+/* ====== erro-404 ==================================================== erro-404 ============ */
+
+#erro-404-pic {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#erro-404-col-txt-1 {
+	font-size: 1.2em;
+    padding-top: 80px;
+
+}
+
+#erro-404-col-txt-2 {
+	font-size: 1.2em;
+    padding-top: 150px;
+
+}
+
 /* ====== Fab Kids ==================================================== Fab Kids ============ */
 
 #fab-kids-col-pic {
