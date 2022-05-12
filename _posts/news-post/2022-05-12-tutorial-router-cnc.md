@@ -16,10 +16,11 @@ category: tutorial
 
 <h2> Sumário</h2> 
 1. <a href=”#modelagem”>Modelagem 3D com Fusion 360</a>
-2. Geração de Gcode para Router CNC
-3. Preparação do equipamento
-4. Executando o código
-5. Finalizando o trabalho
+2. <a href=”#gcode”>Geração de Gcode para Router CNC</a>
+3. <a href=”#setup”Preparação do equipamento</a>
+4. <a href=”#corte”>Executando o código</a>
+5. <a href=”#final”>Finalizando o trabalho</a>
+
 
 <a name=”modelagem”><h2>Modelagem 3D com Fusion 360</h2></a>
 <p>A peça a ser fabricada em uma router CNC precisa ser um desenho digital, vetorizado, em formato DXF ou um modelo 3D em formato STL. Softwares como Fusion 360, AutoCAD, SolidWorks, CorelDraw (somente 2D), Adobe Illustrator (somente 2D) são capazes de gerar os desenhos adequados.
@@ -44,7 +45,8 @@ b)	Selecione a letra como o perfil que você deseja extrudar.
 c)	Arraste a seta azul para cima 15 mm para definir a profundidade da letra.
 <p>Dica: Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
 d)	Clique em “OK” na caixa de diálogo “EXTRUDE”.
-<h2>3. Geração de Gcode para Router CNC</h2>
+
+<a name=”gcode”><h2>Geração de Gcode para Router CNC</h2></a>
 3.1 Ambiente de trabalho MANUFACTURE (CAM)
 O ambiente de trabalho MANUFACTURE do Fusion 360 contém ferramentas CAM para ajudá-lo a gerar caminhos de ferramenta, programar máquinas CNC e dar vida a seus projetos.
 Para ir para o ambiente de trabalho MANUFACTURE, selecione “MANUFACTURE” na lista suspensa.
@@ -111,7 +113,7 @@ Clique no botão “Post” para realizar o pós-processamento.
 Na janela “Post Process”, selecione uma pasta para salvar o G code, dê um nome ao arquivo e clique em “Salvar”.
 Um arquivo com a extensão *.tap foi gerado na pasta selecionada. Transfira o arquivo para um pendrive e leve-o até o controlador da router CNC.
  
-<h2>4. Preparação do equipamento</h2>
+<a name=”setup”><h2>Preparação do equipamento</h2></a>
 Antes de iniciar a execução do projeto, são necessários alguns passos para preparar a máquina. Esse procedimento ocorre em 13 etapas, da seguinte forma: 
 a)	Conecte a pinça de 4mm à porca do spindle e insira a fresa de 4mm.
 b)	Com as ferramentas adequadas, fixe o conjunto na extremidade do spindle; 
@@ -129,7 +131,7 @@ k)	Na parte superior da tela, zere as coordenadas X, Y e Z;
 l)	Afaste a fresa do material por segurança. Cerca de dois centímetros é o bastante.
 m)	Ligue o exaustor.
 
-<h2>5. Executando o código</h2>
+<a name=”corte”><h2>Executando o código</h2></a>
 Antes de executar o trabalho, o operador (e demais pessoas no ambiente) deve colocar os EPI’s obrigatórios (óculos de proteção, abafador concha e máscara para poeiras). Com o desenho configurado, a máquina ajustada e o operador seguro, o trabalho pode ser iniciado.
 Esse procedimento ocorre em 5 etapas, da seguinte forma: 
 a) No canto superior esquerdo da tela, clique em “Load Code”; 
@@ -139,7 +141,7 @@ d) Ligue o aspirador;
 e) Clique em “CycleStart”. 
 Supervisione o funcionamento da máquina até o final do processo. Nunca a deixe trabalhando sozinha. Fique atento a possíveis erros durante a fabricação da sua peça. Caso observe algo de errado interrompa o corte pressionando o botão de emergência.
  
-<h2>6. Finalizando o trabalho</h2>
+<a name=”final”><h2>Finalizando o trabalho</h2></a>
 Após todos os trabalhos serem executados, a máquina movimentará a fresa até a origem, informando que encerrou sua atividade. Para encerrar seu projeto, devem ser seguidas 6 etapas, da seguinte forma: 
 a) Pelo teclado, movimente o bico para fora da área trabalhada; 
 b) Pressione o “Botão de Emergência” para evitar acidentes; 
