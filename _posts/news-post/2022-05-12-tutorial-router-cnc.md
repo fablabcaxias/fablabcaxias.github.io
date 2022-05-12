@@ -1,6 +1,16 @@
-Orientações para operação de Router CNC com Fusion 360
+---
+layout: blog_post
+type: blog
+teaserlatest: exemplo/full-printed.png
+teaserlist: exemplo/full-printed.png
+title: Orientações para operação de Router CNC com Fusion 360
+meta: "Assista ao vídeo criado pelo Fab Lab Barcelona e saiba melhor como a rede Fab Lab conecta pessoas ao redor do mundo."
+author: Dennison Siqueira
+date: 12/05/2022
+category: tutorial
+---
 
-Sumário
+<h2> Sumário</h2> 
 1. Introdução	1
 2. Modelagem 3D com Fusion 360
 3. Geração de Gcode para Router CNC
@@ -8,108 +18,74 @@ Sumário
 5. Executando o código
 6. Finalizando o trabalho
 
-1. Introdução
-A router CNC é uma máquina capaz de fabricar peças a partir de modelos digitais em duas ou três dimensões, utilizando materiais como madeira, MDF, isopor, metais não ferrosos etc. Ela utiliza ferramentas de corte de diversos tipos para remover o material até que reste apenas o objeto desejado.
-Durante a fabricação da peça, o material removido se transforma em partículas que podem ser espalhar no ambiente. Para evitar esse inconveniente, a máquina conta com um equipamento auxiliar para aspiração do pó, de forma a conter a contaminação e manter baixos os níveis de toxicidade do ar.
-A router CNC não possui painel de controle, apenas botões para ligar e desligar e botão de parada de emergência. Todos os comandos de operação do equipamento são acessados pelo software supervisório que a acompanha (Mach3Mill).
-Para utilizar a router CNC é necessário seguir alguns passos, que serão detalhados a seguir, da preparação de um modelo digital à retirada de uma peça pronta.
-2. Modelagem 3D com Fusion 360
-A peça a ser fabricada em uma router CNC precisa ser um desenho digital, vetorizado, em formato DXF ou um modelo 3D em formato STL. Softwares como Fusion 360, AutoCAD, SolidWorks, CorelDraw (somente 2D), Adobe Illustrator (somente 2D) são capazes de gerar os desenhos adequados.
-Neste trabalho utilizaremos o software Autodesk Fusion 360, disponível no FabLab. O Fusion 360 nos permite criar um modelo 3D e possui ferramentas para geração do código compatível com a router CNC.
-Abra o software Fusion 360.
-Verifique se o espaço de trabalho DESING está ativo.
- 
+<h2>1. Introdução</h2> 
+<p>A router CNC é uma máquina capaz de fabricar peças a partir de modelos digitais em duas ou três dimensões, utilizando materiais como madeira, MDF, isopor, metais não ferrosos etc. Ela utiliza ferramentas de corte de diversos tipos para remover o material até que reste apenas o objeto desejado.
+</p><p>Durante a fabricação da peça, o material removido se transforma em partículas que podem ser espalhar no ambiente. Para evitar esse inconveniente, a máquina conta com um equipamento auxiliar para aspiração do pó, de forma a conter a contaminação e manter baixos os níveis de toxicidade do ar.
+</p><p>A router CNC não possui painel de controle, apenas botões para ligar e desligar e botão de parada de emergência. Todos os comandos de operação do equipamento são acessados pelo software supervisório que a acompanha (Mach3Mill).
+</p><p>Para utilizar a router CNC é necessário seguir alguns passos, que serão detalhados a seguir, da preparação de um modelo digital à retirada de uma peça pronta.</p>
 
+<h2>2. Modelagem 3D com Fusion 360</h2>
+<p>A peça a ser fabricada em uma router CNC precisa ser um desenho digital, vetorizado, em formato DXF ou um modelo 3D em formato STL. Softwares como Fusion 360, AutoCAD, SolidWorks, CorelDraw (somente 2D), Adobe Illustrator (somente 2D) são capazes de gerar os desenhos adequados.
+</p><p>Neste trabalho utilizaremos o software Autodesk Fusion 360, disponível no FabLab. O Fusion 360 nos permite criar um modelo 3D e possui ferramentas para geração do código compatível com a router CNC.
+</p><p>Abra o software Fusion 360.
+</p><p>Verifique se o espaço de trabalho DESING está ativo.</p>
 2.1 Crie um desenho 2D
-Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.
+</p><p>Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.</p>
 a)	Clique em “Solid> Create> Create Sketch”   .
-
 b)	Selecione o plano XY para desenhar.
-
-Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência. 
-
+<p>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência. </p>
 c)	Clique em “Sketch> Create> Text”  
-
 d)	Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.
-
- 
-
-
 e)	Clique uma vez para posicionar o texto.
-
 f)	Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.
-
 g)	Clique em “OK”.
-Dica: Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. 
- 
+<p>Dica: Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
 2.2 Transformando um sketch em um modelo 3D
-Faça a extrusão da letra que você acabou de criar, 15 mm, para converter seu perfil de esboço 2D em geometria 3D.
+<p>Faça a extrusão da letra que você acabou de criar, 15 mm, para converter seu perfil de esboço 2D em geometria 3D.</p>
 a)	Clique em “Solid > Crate> Extrude”  . Isso exibe a caixa de diálogo “EXTRUDE”.
-
 b)	Selecione a letra como o perfil que você deseja extrudar. 
-
 c)	Arraste a seta azul para cima 15 mm para definir a profundidade da letra.
-Dica: Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.
+<p>Dica: Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
 d)	Clique em “OK” na caixa de diálogo “EXTRUDE”.
-3. Geração de Gcode para Router CNC
+<h2>3. Geração de Gcode para Router CNC</h2>
 3.1 Ambiente de trabalho MANUFACTURE (CAM)
 O ambiente de trabalho MANUFACTURE do Fusion 360 contém ferramentas CAM para ajudá-lo a gerar caminhos de ferramenta, programar máquinas CNC e dar vida a seus projetos.
 Para ir para o ambiente de trabalho MANUFACTURE, selecione “MANUFACTURE” na lista suspensa.
 3.2 Crie um Setup para operação de fresagem.
 a)	Na barra de ferramentas “MANUFACTURE”, clique em “Setup > New Setup”  .
-
 A caixa de diálogo “Setup” é exibida.
-
 b)	Na caixa de diálogo “Setup”, selecione o tipo de operação (Operation Type) “Milling”.
-
 c)	Preencha a área “Work Coordinate System (WCS)”, para especificar a orientação e a origem do sistema de coordenadas da peça de trabalho.
-
 d)	Preencha a área “Model”, para especificar qual modelo está incluído no Setup. Por padrão, todos os modelos na tela são selecionados automaticamente.
-
 e)	Preencha a guia “Stock”, para definir o tamanho e a forma da peça de trabalho. Mantenha as configurações padrão exceto o campo “Stock Top Offset” que deve ser modificado para “0mm”.
-
 f)	Clique em “OK”.
 3.3 Configurando um corte de contorno 2D
 3.3.1 Abra a biblioteca de ferramentas
 a)	Na barra de ferramentas “MANUFACTURE”, guia “Milling”, selecione “2D > 2D Contour”   .
-
 A paleta de comandos “2D Contour” é aberta.
 b)	Na guia “Tool”    , clique em “Select”.
-
 Isso abre a biblioteca de ferramentas.
 3.3.2 Crie e selecione uma nova ferramenta de corte.
 a)	Clique no botão “New Mill Tool”   .
-
 b)	Na guia “Cutter”, na lista suspensa “Type”, selecione a opção ”Flat end mill”.
-
 c)	No grupo “Geomety”, defina o Diâmetro para 4mm.
-
 d)	Para poder cortar toda a altura da peça, aumente o comprimento da fresa para 15 mm.
-
 e)	Clique em “OK” para criar a ferramenta.
-
 f)	Selecione a nova ferramenta e clique em “OK “para fechar a caixa de diálogo.
 3.3.3 Defina a velocidade de rotação e avanço
 No grupo “Feed & Speed”, defina a velocidade do eixo da ferramenta (Spindle Speed) para 15000 RPM e o avanço de corte (Cutting Feedrate) para 800mm/min.
 Importante: Defina os parâmetros de velocidade e avanço com base nas recomendações dos fornecedores de ferramentas e no tipo de material.
 3.3.4 Selecione o contorno a ser usinado
 a)	Clique na guia “Geometry”   .
-
 b)	Verifique se o botão “Contourn selection” está ativo para que você possa selecionar a aresta externa da geometria da peça para rodar a ferramenta.
-
 c)	Mova o ponteiro do mouse sobre a borda inferior.
-
 d)	Quando a borda se destacar, clique nela. A aresta é selecionada automaticamente como uma corrente.
-
 Observe a linha azul ao redor da peça.
-
 A seta vermelha deve estar do lado de fora, apontando no sentido horário (CW) ao redor da peça.
-
 Dica: Você pode reverter a direção de uma aresta selecionada clicando na seta vermelha.
 3.3.5 Crie “Tabs” para a peça não sair voando
 Você pode adicionar Tabs ao caminho da ferramenta 2D Contourn para prender a peça com segurança enquanto o material é usinado. As Tabs são muito úteis ao cortar plástico fino ou madeira.
-Ative a caixa de seleção “Tabs” e defina os parâmetros conforme a imagem abaixo:
- 
+Ative a caixa de seleção “Tabs” e defina os parâmetros conforme a imagem abaixo.
 Em “Tab Positions” use o cursor para selecionar pontos ao longo do caminho do contorno para os locais das Tabs.
 Dica: As tabs podem ser removidas manualmente com o auxílio de uma lima.
 3.3.6 Configure as alturas
@@ -137,7 +113,8 @@ Na caixa de diálogo “Post Process”, selecione o pós-processador correto da
 Clique no botão “Post” para realizar o pós-processamento.
 Na janela “Post Process”, selecione uma pasta para salvar o G code, dê um nome ao arquivo e clique em “Salvar”.
 Um arquivo com a extensão *.tap foi gerado na pasta selecionada. Transfira o arquivo para um pendrive e leve-o até o controlador da router CNC.
-4. Preparação do equipamento
+ 
+<h2>4. Preparação do equipamento</h2>
 Antes de iniciar a execução do projeto, são necessários alguns passos para preparar a máquina. Esse procedimento ocorre em 13 etapas, da seguinte forma: 
 a)	Conecte a pinça de 4mm à porca do spindle e insira a fresa de 4mm.
 b)	Com as ferramentas adequadas, fixe o conjunto na extremidade do spindle; 
@@ -155,7 +132,7 @@ k)	Na parte superior da tela, zere as coordenadas X, Y e Z;
 l)	Afaste a fresa do material por segurança. Cerca de dois centímetros é o bastante.
 m)	Ligue o exaustor.
 
-5. Executando o código
+<h2>5. Executando o código</h2>
 Antes de executar o trabalho, o operador (e demais pessoas no ambiente) deve colocar os EPI’s obrigatórios (óculos de proteção, abafador concha e máscara para poeiras). Com o desenho configurado, a máquina ajustada e o operador seguro, o trabalho pode ser iniciado.
 Esse procedimento ocorre em 5 etapas, da seguinte forma: 
 a) No canto superior esquerdo da tela, clique em “Load Code”; 
@@ -164,7 +141,8 @@ b) Na janela que foi aberta, selecione seu arquivo e clique em “Abrir”;
 d) Ligue o aspirador; 
 e) Clique em “CycleStart”. 
 Supervisione o funcionamento da máquina até o final do processo. Nunca a deixe trabalhando sozinha. Fique atento a possíveis erros durante a fabricação da sua peça. Caso observe algo de errado interrompa o corte pressionando o botão de emergência.
-6. Finalizando o trabalho
+ 
+<h2>6. Finalizando o trabalho</h2>
 Após todos os trabalhos serem executados, a máquina movimentará a fresa até a origem, informando que encerrou sua atividade. Para encerrar seu projeto, devem ser seguidas 6 etapas, da seguinte forma: 
 a) Pelo teclado, movimente o bico para fora da área trabalhada; 
 b) Pressione o “Botão de Emergência” para evitar acidentes; 
