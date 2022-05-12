@@ -17,18 +17,31 @@ category: tutorial
 <br>
 <h2> Conteúdo</h2> 
 
-<a href=”#modelagem”>Modelagem 3D com Fusion 360</a>
+<ul>
+<li>1 monitor de 21"</li>
+<li>4 parafusos para fixação do monitor</li>
+<li>1 filtro de linha</li>
+<li>2 joystiks para arcade</li>
+<li>16 botões para arcade</li>
+<li>2 placas zero delay USB</li>
+<li>1 interruptor</li>
+<li>1 computador, notebook ou raspberry para rodar os jogos</li>
+<li>1 cabo VGA ou HDMI dependendo da compatibilidade</li>
+<li>1 caixinha de som para PC opcional</li>
+</ul>
 
-<a href=”#gcode”>Geração de Gcode para Router CNC</a>
+<a href="#modelagem">Modelagem 3D com Fusion 360</a>
 
-<a href=”#setup”>Preparação do equipamento</a>
+<a href="#gcode">Geração de Gcode para Router CNC</a>
 
-<a href=”#corte”>Executando o código</a>
+<a href="#setup">Preparação do equipamento</a>
 
-<a href=”#final”>Finalizando o trabalho</a>
+<a href="#corte">Executando o código</a>
+
+<a href="#final">Finalizando o trabalho</a>
 
 
-<h2 id=”modelagem”>Modelagem 3D com Fusion 360</h2>
+<h2 id="modelagem">Modelagem 3D com Fusion 360</h2>
 
 <p>A peça a ser fabricada em uma router CNC precisa ser um desenho digital, vetorizado, em formato DXF ou um modelo 3D em formato STL. Softwares como Fusion 360, AutoCAD, SolidWorks, CorelDraw (somente 2D), Adobe Illustrator (somente 2D) são capazes de gerar os desenhos adequados.</p>
 <p>Neste trabalho utilizaremos o software Autodesk Fusion 360, disponível no FabLab. O Fusion 360 nos permite criar um modelo 3D e possui ferramentas para geração do código compatível com a router CNC.</p>
@@ -75,7 +88,7 @@ c)Arraste a seta azul para cima 15 mm para definir a profundidade da letra.
 d)Clique em “OK” na caixa de diálogo “EXTRUDE”.
 
 
-<h2 id=”gcode”>Geração de Gcode para Router CNC</h2>
+<h2 id="gcode">Geração de Gcode para Router CNC</h2>
 
 <h3>Ambiente de trabalho MANUFACTURE (CAM)</h3>
 
@@ -230,7 +243,7 @@ m)	Ligue o exaustor.
 
 
 
-<h2 id=”corte”>Executando o código</h2>
+<h2 id="corte">Executando o código</h2>
 
 <p>Antes de executar o trabalho, o operador (e demais pessoas no ambiente) deve colocar os EPI’s obrigatórios (óculos de proteção, abafador concha e máscara para poeiras). <p/>
 <p>Com o desenho configurado, a máquina ajustada e o operador seguro, o trabalho pode ser iniciado.Esse procedimento ocorre em 5 etapas, da seguinte forma: </p>
@@ -248,7 +261,7 @@ Supervisione o funcionamento da máquina até o final do processo. Nunca a deixe
  
 
 
-<h2 id=”final”>Finalizando o trabalho</h2>
+<h2 id="final">Finalizando o trabalho</h2>
 
 <p>Após todos os trabalhos serem executados, a máquina movimentará a fresa até a origem, informando que encerrou sua atividade. Para encerrar seu projeto, devem ser seguidas 6 etapas, da seguinte forma: </p>
 
