@@ -9,22 +9,19 @@ author: Dennison Siqueira
 date: 12/05/2022
 category: tutorial
 ---
-
-<h2> Sumário</h2> 
-1. Introdução	1
-2. Modelagem 3D com Fusion 360
-3. Geração de Gcode para Router CNC
-4. Preparação do equipamento
-5. Executando o código
-6. Finalizando o trabalho
-
-<h2>1. Introdução</h2> 
 <p>A router CNC é uma máquina capaz de fabricar peças a partir de modelos digitais em duas ou três dimensões, utilizando materiais como madeira, MDF, isopor, metais não ferrosos etc. Ela utiliza ferramentas de corte de diversos tipos para remover o material até que reste apenas o objeto desejado.
 </p><p>Durante a fabricação da peça, o material removido se transforma em partículas que podem ser espalhar no ambiente. Para evitar esse inconveniente, a máquina conta com um equipamento auxiliar para aspiração do pó, de forma a conter a contaminação e manter baixos os níveis de toxicidade do ar.
 </p><p>A router CNC não possui painel de controle, apenas botões para ligar e desligar e botão de parada de emergência. Todos os comandos de operação do equipamento são acessados pelo software supervisório que a acompanha (Mach3Mill).
 </p><p>Para utilizar a router CNC é necessário seguir alguns passos, que serão detalhados a seguir, da preparação de um modelo digital à retirada de uma peça pronta.</p>
 
-<h2>2. Modelagem 3D com Fusion 360</h2>
+<h2> Sumário</h2> 
+1. <a href=”#modelagem”>Modelagem 3D com Fusion 360</a>
+2. Geração de Gcode para Router CNC
+3. Preparação do equipamento
+4. Executando o código
+5. Finalizando o trabalho
+
+<a name=”modelagem”><h2>Modelagem 3D com Fusion 360</h2></a>
 <p>A peça a ser fabricada em uma router CNC precisa ser um desenho digital, vetorizado, em formato DXF ou um modelo 3D em formato STL. Softwares como Fusion 360, AutoCAD, SolidWorks, CorelDraw (somente 2D), Adobe Illustrator (somente 2D) são capazes de gerar os desenhos adequados.
 </p><p>Neste trabalho utilizaremos o software Autodesk Fusion 360, disponível no FabLab. O Fusion 360 nos permite criar um modelo 3D e possui ferramentas para geração do código compatível com a router CNC.
 </p><p>Abra o software Fusion 360.
