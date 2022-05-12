@@ -21,7 +21,7 @@ category: tutorial
 
 <a href=”#gcode”>Geração de Gcode para Router CNC</a>
 
-<a href=”#setup”Preparação do equipamento</a>
+<a href=”#setup”>Preparação do equipamento</a>
 
 <a href=”#corte”>Executando o código</a>
 
