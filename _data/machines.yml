@@ -10,6 +10,7 @@
     applications: projetos em escala real como móveis e estruturas.
   use: FabLab Wiki
   useurl: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
 - name: "zmorph"
   image: /img/machines/zmorph.jpg
@@ -24,6 +25,7 @@
     aplicações: impressão de modelos 3D, engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Zmorph
   useurl: "https://zmorph3d.com/"
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
 - name: "cl2pro+"
   image: /img/machines/cliever1.jpg
@@ -37,6 +39,7 @@
     applications: impressão de modelos 3D, engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Cliever
   useurl: "https://www.cliever.com/m/blog"
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
 - name: "cl2pro"
   image: /img/machines/cliever2.jpg
@@ -49,6 +52,7 @@
     aplicações: impressão de modelos 3D, engenharia reversa, reposição de peças, maquetes, arquitetura, etc.
   use: Cliever
   useurl: "https://www.cliever.com/m/blog"
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
     
 - name: "cnc1"
   image: /img/machines/roland.jpg
@@ -62,6 +66,7 @@
     aplicações: usinagem de peças de precisão, corte de placas de circuito eletônico etc.
   use: ""
   useurl: ""
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
 - name: "cnc2"
   image: /img/machines/router.jpg
@@ -75,6 +80,7 @@
     aplicações: Fabricação de móveis, peças de decoração, estruturas, corte de placas de circuito eletônico etc.
   use: ""
   useurl: ""
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
 - name: "vinil-cutter"
   image: /img/machines/cutter.jpg
@@ -89,6 +95,7 @@
     aplicações: recorte de adesivos, papel e circuitos eletrônicos flexíveis.
   use: ""
   useurl: ""
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
   
 - name: "vacuumforming"
   image: /img/machines/vacuum.jpg
@@ -99,3 +106,4 @@
     aplicações: criação de moldes, embalagens, carenagens etc.
   use: ""
   useurl: ""
+  agenda: "http://wiki.fablabbcn.org/Multicam_Laser_Cutter"
