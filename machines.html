@@ -27,11 +27,12 @@ permalink: maquinas
 					{% for prop in item.machineprops %}
 					<li><strong class="text-capitalize">{{prop[0]}}: </strong> {{prop[1]}}</li>
 					{% endfor %}
-					{% if item.use != "" %}<li><strong>Instruções de uso:</strong><a target="_blank" href={{item.useurl}}> {{item.use}}</a></li>{% endif %}
+				</ul>
+					{% if item.use != "" %}<a target="_blank" href={{item.useurl}}> <img width=50px src="{{site.baseurl}}/img/machines/manual.png"/></a>{% endif %}
+					
+					{% if item.agenda != "" %}<a target="_blank" href={{item.useurl}}> <img width=50px src="{{site.baseurl}}/img/machines/calendario.png"/></a>{% endif %}
 					
 					<!-- test -->
-				</ul>
-				<img width=50px src="{{site.baseurl}}/img/machines/manual.png"/>  <img width=50px src="{{site.baseurl}}/img/machines/calendario.png"/>
 			</div> <!-- col -->
 
 			<!--------------------------------- machine list item ----------------------------->
