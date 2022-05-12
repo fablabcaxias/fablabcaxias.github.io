@@ -15,11 +15,11 @@ category: tutorial
 </p><p>Para utilizar a router CNC é necessário seguir alguns passos, que serão detalhados a seguir, da preparação de um modelo digital à retirada de uma peça pronta.</p>
 
 <h2> Sumário</h2> 
-1. <a href=”#modelagem”>Modelagem 3D com Fusion 360</a>
-2. <a href=”#gcode”>Geração de Gcode para Router CNC</a>
-3. <a href=”#setup”Preparação do equipamento</a>
-4. <a href=”#corte”>Executando o código</a>
-5. <a href=”#final”>Finalizando o trabalho</a>
+<a href=”#modelagem”>Modelagem 3D com Fusion 360</a>
+<a href=”#gcode”>Geração de Gcode para Router CNC</a>
+<a href=”#setup”Preparação do equipamento</a>
+<a href=”#corte”>Executando o código</a>
+<a href=”#final”>Finalizando o trabalho</a>
 
 
 <a name=”modelagem”><h2>Modelagem 3D com Fusion 360</h2></a>
