@@ -17,29 +17,13 @@ category: tutorial
 <br>
 <h2> Conteúdo</h2> 
 
-<ul>
-<li>1 monitor de 21"</li>
-<li>4 parafusos para fixação do monitor</li>
-<li>1 filtro de linha</li>
-<li>2 joystiks para arcade</li>
-<li>16 botões para arcade</li>
-<li>2 placas zero delay USB</li>
-<li>1 interruptor</li>
-<li>1 computador, notebook ou raspberry para rodar os jogos</li>
-<li>1 cabo VGA ou HDMI dependendo da compatibilidade</li>
-<li>1 caixinha de som para PC opcional</li>
-</ul>
-
-<a href="#modelagem">Modelagem 3D com Fusion 360</a>
-
-<a href="#gcode">Geração de Gcode para Router CNC</a>
-
-<a href="#setup">Preparação do equipamento</a>
-
-<a href="#corte">Executando o código</a>
-
-<a href="#final">Finalizando o trabalho</a>
-
+<ol>
+<li><a href="#modelagem">Modelagem 3D com Fusion 360</a></li>
+<li><a href="#gcode">Geração de Gcode para Router CNC</a></li>
+<li><a href="#setup">Preparação do equipamento</a></li>
+<li><a href="#corte">Executando o código</a></li>
+<li><a href="#final">Finalizando o trabalho</a></li>
+</ol>
 
 <h2 id="modelagem">Modelagem 3D com Fusion 360</h2>
 
