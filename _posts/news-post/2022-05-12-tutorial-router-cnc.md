@@ -27,7 +27,8 @@ category: tutorial
 </p><p>Neste trabalho utilizaremos o software Autodesk Fusion 360, disponível no FabLab. O Fusion 360 nos permite criar um modelo 3D e possui ferramentas para geração do código compatível com a router CNC.
 </p><p>Abra o software Fusion 360.
 </p><p>Verifique se o espaço de trabalho DESING está ativo.</p>
-2.1 Crie um desenho 2D
+
+<h3>Crie um desenho 2D</h3>
 </p><p>Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.</p>
 a)	Clique em “Solid> Create> Create Sketch”   .
 b)	Selecione o plano XY para desenhar.
@@ -38,7 +39,8 @@ e)	Clique uma vez para posicionar o texto.
 f)	Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.
 g)	Clique em “OK”.
 <p>Dica: Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
-2.2 Transformando um sketch em um modelo 3D
+
+<h3>Transformando um sketch em um modelo 3D</h3>
 <p>Faça a extrusão da letra que você acabou de criar, 15 mm, para converter seu perfil de esboço 2D em geometria 3D.</p>
 a)	Clique em “Solid > Crate> Extrude”  . Isso exibe a caixa de diálogo “EXTRUDE”.
 b)	Selecione a letra como o perfil que você deseja extrudar. 
@@ -47,10 +49,11 @@ c)	Arraste a seta azul para cima 15 mm para definir a profundidade da letra.
 d)	Clique em “OK” na caixa de diálogo “EXTRUDE”.
 
 <a name=”gcode”><h2>Geração de Gcode para Router CNC</h2></a>
-3.1 Ambiente de trabalho MANUFACTURE (CAM)
+<h3>Ambiente de trabalho MANUFACTURE (CAM)</h3>
 O ambiente de trabalho MANUFACTURE do Fusion 360 contém ferramentas CAM para ajudá-lo a gerar caminhos de ferramenta, programar máquinas CNC e dar vida a seus projetos.
 Para ir para o ambiente de trabalho MANUFACTURE, selecione “MANUFACTURE” na lista suspensa.
-3.2 Crie um Setup para operação de fresagem.
+
+<h3>Crie um Setup para operação de fresagem</h3>
 a)	Na barra de ferramentas “MANUFACTURE”, clique em “Setup > New Setup”  .
 A caixa de diálogo “Setup” é exibida.
 b)	Na caixa de diálogo “Setup”, selecione o tipo de operação (Operation Type) “Milling”.
@@ -58,23 +61,24 @@ c)	Preencha a área “Work Coordinate System (WCS)”, para especificar a orien
 d)	Preencha a área “Model”, para especificar qual modelo está incluído no Setup. Por padrão, todos os modelos na tela são selecionados automaticamente.
 e)	Preencha a guia “Stock”, para definir o tamanho e a forma da peça de trabalho. Mantenha as configurações padrão exceto o campo “Stock Top Offset” que deve ser modificado para “0mm”.
 f)	Clique em “OK”.
-3.3 Configurando um corte de contorno 2D
-3.3.1 Abra a biblioteca de ferramentas
+
+<h3>Configurando um corte de contorno 2D</h3>
+<h4>Abra a biblioteca de ferramentas</h4>
 a)	Na barra de ferramentas “MANUFACTURE”, guia “Milling”, selecione “2D > 2D Contour”   .
 A paleta de comandos “2D Contour” é aberta.
 b)	Na guia “Tool”    , clique em “Select”.
 Isso abre a biblioteca de ferramentas.
-3.3.2 Crie e selecione uma nova ferramenta de corte.
+<h4>Crie e selecione uma nova ferramenta de corte</h4>
 a)	Clique no botão “New Mill Tool”   .
 b)	Na guia “Cutter”, na lista suspensa “Type”, selecione a opção ”Flat end mill”.
 c)	No grupo “Geomety”, defina o Diâmetro para 4mm.
 d)	Para poder cortar toda a altura da peça, aumente o comprimento da fresa para 15 mm.
 e)	Clique em “OK” para criar a ferramenta.
 f)	Selecione a nova ferramenta e clique em “OK “para fechar a caixa de diálogo.
-3.3.3 Defina a velocidade de rotação e avanço
+<h4>Defina a velocidade de rotação e avanço</h4>
 No grupo “Feed & Speed”, defina a velocidade do eixo da ferramenta (Spindle Speed) para 15000 RPM e o avanço de corte (Cutting Feedrate) para 800mm/min.
 Importante: Defina os parâmetros de velocidade e avanço com base nas recomendações dos fornecedores de ferramentas e no tipo de material.
-3.3.4 Selecione o contorno a ser usinado
+<h4>Selecione o contorno a ser usinado</h4>
 a)	Clique na guia “Geometry”   .
 b)	Verifique se o botão “Contourn selection” está ativo para que você possa selecionar a aresta externa da geometria da peça para rodar a ferramenta.
 c)	Mova o ponteiro do mouse sobre a borda inferior.
@@ -82,29 +86,31 @@ d)	Quando a borda se destacar, clique nela. A aresta é selecionada automaticame
 Observe a linha azul ao redor da peça.
 A seta vermelha deve estar do lado de fora, apontando no sentido horário (CW) ao redor da peça.
 Dica: Você pode reverter a direção de uma aresta selecionada clicando na seta vermelha.
-3.3.5 Crie “Tabs” para a peça não sair voando
+<h4>Crie “Tabs” para a peça não sair voando</h4>
 Você pode adicionar Tabs ao caminho da ferramenta 2D Contourn para prender a peça com segurança enquanto o material é usinado. As Tabs são muito úteis ao cortar plástico fino ou madeira.
 Ative a caixa de seleção “Tabs” e defina os parâmetros conforme a imagem abaixo.
 Em “Tab Positions” use o cursor para selecionar pontos ao longo do caminho do contorno para os locais das Tabs.
 Dica: As tabs podem ser removidas manualmente com o auxílio de uma lima.
-3.3.6 Configure as alturas
+<h4>Configure as alturas</h4>
 a)	Clique na guia “Heights”   . Uma prévia das alturas é mostrada.
 As alturas são codificadas por cores e rotuladas para facilitar a identificação.
 b)	O menu suspenso “Bottom Height” deve ser definido como “Model bottom”.
 c)	Para garantir que a peça será cortada até o final, defina o deslocamento (Offset) da altura inferior como “-1mm”. Observe que o plano azul escuro, a altura inferior, se move para baixo.
-3.3.7 Defina a profundidade de corte
+<h4>Defina a profundidade de corte</h4>
 a)	Clique na guia “Passes”   . Este grupo de configurações controla como o caminho da ferramenta de contorno 2D é calculado. Para cortar a peça, o caminho da ferramenta é gerado em vários níveis Z, começando da parte superior do material e descendo em etapas de 3mm até a parte inferior do modelo.
 b)	Ative a opção “Multiple Depths”.
 c)	Defina o desbaste máximo (Maximum Roughing Stepdown) para 3mm.
 d)	Clique em “OK” para iniciar o cálculo.
-3.4 Simulação da usinagem
+
+<h3>Simulação da usinagem</h3>
 O recurso “Simulate” permite verificar se o caminho da ferramenta gerado é o pretendido.
 A simulação é iniciada selecionando as operações de interesse no Browser e, em seguida, clicando na opção “Actions > Simulate”  .
  As operações são simuladas na ordem original conforme aparecem no Browser. Depois de iniciada, a caixa de diálogo “Simulate” é aberta e o player é exibido na parte inferior da tela. 
 Você pode habilitar as caixas de seleção para mostrar o material dentro da simulação. Também é possível mostrar a ferramenta, o caminho e o material individualmente ou em conjunto, ativando ou desativando as respectivas caixas de seleção “Tool”, “Toolpath” e “Stock”.
 Para a iniciar a animação da ferramenta, clique no botão “Start” no Simulador. A animação pode ser pausada e reproduzida clicando no botão “Pause” e “Start”, respectivamente.
 Para encerrar a simulação clique em “Close” na caixa de diálogo.
-3.5 Pós Processamento
+
+<h3>Pós Processamento</h3>
 OK, você projetou seu primeiro modelo e concluiu seus primeiros caminhos de ferramenta. Agora você está se perguntando como fazer a router CNC cortar a peça. Para isso, você precisa de um pós-processador.
 Um pós-processador é um tradutor que converte a imagem do caminho da ferramenta que você vê na tela para a linguagem que a router CNC entende. Na maioria dos casos, essa linguagem é o código G, embora algumas máquinas possam usar um formato diferente. Vamos nos referir a ele como "G code".
 Para gerar o G code, selecione o Setup criado no Browser. Depois de selecionar os caminhos da ferramenta, clique em “Actions> Post Process”  .
