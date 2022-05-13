@@ -10,14 +10,11 @@ date: 12/05/2022
 category: tutorial
 ---
 <section class="tuto">
-<br>
 <p>A router CNC é uma máquina capaz de fabricar peças a partir de modelos digitais em duas ou três dimensões, utilizando materiais como madeira, MDF, isopor, metais não ferrosos etc. Ela utiliza ferramentas de corte de diversos tipos para remover o material até que reste apenas o objeto desejado.
 <p>Durante a fabricação da peça, o material removido se transforma em partículas que podem ser espalhar no ambiente. Para evitar esse inconveniente, a máquina conta com um equipamento auxiliar para aspiração do pó, de forma a conter a contaminação e manter baixos os níveis de toxicidade do ar.
 <p>A router CNC não possui painel de controle, apenas botões para ligar e desligar e botão de parada de emergência. Todos os comandos de operação do equipamento são acessados pelo software supervisório que a acompanha (Mach3Mill).
 <p>Para utilizar a router CNC é necessário seguir alguns passos, que serão detalhados a seguir, da preparação de um modelo digital à retirada de uma peça pronta.
-<br>
 <h2> Conteúdo</h2> 
-<br>
 <ul>
 <li><a href="#modelagem">Modelagem 3D com Fusion 360</a></li>
 <li><a href="#gcode">Geração de Gcode para Router CNC</a></li>
@@ -25,21 +22,17 @@ category: tutorial
 <li><a href="#corte">Executando o código</a></li>
 <li><a href="#final">Finalizando o trabalho</a></li>
 </ul>
-<br>
 <h2 id="modelagem">Modelagem 3D com Fusion 360</h2>
-<br>
 <p>A peça a ser fabricada em uma router CNC precisa ser um desenho digital, vetorizado, em formato DXF ou um modelo 3D em formato STL. Softwares como Fusion 360, AutoCAD, SolidWorks, CorelDraw (somente 2D), Adobe Illustrator (somente 2D) são capazes de gerar os desenhos adequados.</p>
 <p>Neste trabalho utilizaremos o software Autodesk Fusion 360, disponível no FabLab. O Fusion 360 nos permite criar um modelo 3D e possui ferramentas para geração do código compatível com a router CNC.</p>
 <p>Abra o software Fusion 360.</p>
 <p>Verifique se o espaço de trabalho DESING está ativo.</p>
-<br>
+ 
 <h3>Crie um desenho 2D</h3>
 <p>Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.</p>
 <ol>
 <li>Clique em “Solid> Create> Create Sketch”   .</li>
-
 <li>Selecione o plano XY para desenhar.</li>
-
 <p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
 
 <li>Clique em “Sketch> Create> Text”  </li>
@@ -59,17 +52,18 @@ category: tutorial
 <h3>Transformando um sketch em um modelo 3D</h3>
 
 <p>Faça a extrusão da letra que você acabou de criar, 15 mm, para converter seu perfil de esboço 2D em geometria 3D.</p>
+<ol>
+<li>Clique em “Solid > Crate> Extrude”  . </li>
+ <p>Isso exibe a caixa de diálogo “EXTRUDE”.</p>
 
-<p>a)Clique em “Solid > Crate> Extrude”  . Isso exibe a caixa de diálogo “EXTRUDE”.
+<li>Selecione a letra como o perfil que você deseja extrudar. </li>
 
-<p>b)Selecione a letra como o perfil que você deseja extrudar. 
-
-<p>c)Arraste a seta azul para cima 15 mm para definir a profundidade da letra.
+<li>Arraste a seta azul para cima 15 mm para definir a profundidade da letra.</li>
 
 <p>Dica: Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
 
-<p>d)Clique em “OK” na caixa de diálogo “EXTRUDE”.
-
+<li>Clique em “OK” na caixa de diálogo “EXTRUDE”.</li>
+ </ol>
 
 <h2 id="gcode">Geração de Gcode para Router CNC</h2>
 
@@ -78,24 +72,23 @@ category: tutorial
 <p>O ambiente de trabalho MANUFACTURE do Fusion 360 contém ferramentas CAM para ajudá-lo a gerar caminhos de ferramenta, programar máquinas CNC e dar vida a seus projetos.</p>
 <p>Para ir para o ambiente de trabalho MANUFACTURE, selecione “MANUFACTURE” na lista suspensa.</p>
 
-
-<br>
 <h3>Crie um Setup para operação de fresagem</h3>
 
-<p>a)	Na barra de ferramentas “MANUFACTURE”, clique em “Setup > New Setup”  .
+<ol> 
+<li>Na barra de ferramentas “MANUFACTURE”, clique em “Setup > New Setup”  .</li>
 <p>A caixa de diálogo “Setup” é exibida.</p>
 
-<p>b)	Na caixa de diálogo “Setup”, selecione o tipo de operação (Operation Type) “Milling”.
+<li>Na caixa de diálogo “Setup”, selecione o tipo de operação (Operation Type) “Milling”.</li>
 
-<p>c)	Preencha a área “Work Coordinate System (WCS)”, para especificar a orientação e a origem do sistema de coordenadas da peça de trabalho.
+<li>Preencha a área “Work Coordinate System (WCS)”, para especificar a orientação e a origem do sistema de coordenadas da peça de trabalho.</li>
 
-<p>d)	Preencha a área “Model”, para especificar qual modelo está incluído no Setup. Por padrão, todos os modelos na tela são selecionados automaticamente.
+<li>Preencha a área “Model”, para especificar qual modelo está incluído no Setup. Por padrão, todos os modelos na tela são selecionados automaticamente.</li>
 
-<p>e)Preencha a guia “Stock”, para definir o tamanho e a forma da peça de trabalho. Mantenha as configurações padrão exceto o campo “Stock Top Offset” que deve ser modificado para “0mm”.
+<li>Preencha a guia “Stock”, para definir o tamanho e a forma da peça de trabalho. Mantenha as configurações padrão exceto o campo “Stock Top Offset” que deve ser modificado para “0mm”.</li>
 
-<p>f)	Clique em “OK”.
-
-<br>
+<li>Clique em “OK”.</li>
+ </ol>
+ 
 <h3>Configurando um corte de contorno 2D</h3>
 <h4>Abra a biblioteca de ferramentas</h4>
 
