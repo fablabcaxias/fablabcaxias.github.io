@@ -120,41 +120,36 @@ category: tutorial
 
 <p>Em “Tab Positions” use o cursor para selecionar pontos ao longo do caminho do contorno para os locais das Tabs.</p>
 <p>Dica: As tabs podem ser removidas manualmente com o auxílio de uma lima.</p>
-<br>
+
 <h4>Configure as alturas</h4>
+ 
+ <ol>
+  <li>Clique na guia “Heights”   . Uma prévia das alturas é mostrada.</li>
+  <p>As alturas são codificadas por cores e rotuladas para facilitar a identificação.</p>
+  <li>O menu suspenso “Bottom Height” deve ser definido como “Model bottom”.</li>
+  <li>Para garantir que a peça será cortada até o final, defina o deslocamento (Offset) da altura inferior como “-1mm”. Observe que o plano azul escuro, a altura inferior, se move para baixo.</li>
+ </ol>
+ 
+ <h4>Defina a profundidade de corte</h4>
+ 
+ <ol>
+  <li>Clique na guia “Passes”   .</li>
+  <p>Este grupo de configurações controla como o caminho da ferramenta de contorno 2D é calculado. Para cortar a peça, o caminho da ferramenta é gerado em vários níveis Z, começando da parte superior do material e descendo em etapas de 3mm até a parte inferior do modelo.</p>
+  <li>Ative a opção “Multiple Depths”.</li>
+  <li>Defina o desbaste máximo (Maximum Roughing Stepdown) para 3mm.</li>
+  <li>Clique em “OK” para iniciar o cálculo.</li>
+ </ol>
 
-<p>a)	Clique na guia “Heights”   . Uma prévia das alturas é mostrada.
-<p>As alturas são codificadas por cores e rotuladas para facilitar a identificação.</p>
-<p>b)	O menu suspenso “Bottom Height” deve ser definido como “Model bottom”.
-
-<p>c)	Para garantir que a peça será cortada até o final, defina o deslocamento (Offset) da altura inferior como “-1mm”. Observe que o plano azul escuro, a altura inferior, se move para baixo.
-<br>
-<h4>Defina a profundidade de corte</h4>
-
-<p>a)	Clique na guia “Passes”   . Este grupo de configurações controla como o caminho da ferramenta de contorno 2D é calculado. Para cortar a peça, o caminho da ferramenta é gerado em vários níveis Z, começando da parte superior do material e descendo em etapas de 3mm até a parte inferior do modelo.
-
-<p>b)	Ative a opção “Multiple Depths”.
-
-<p>c)	Defina o desbaste máximo (Maximum Roughing Stepdown) para 3mm.
-
-<p>d)	Clique em “OK” para iniciar o cálculo.
-
-<br>
 <h3>Simulação da usinagem</h3>
 
-<p>O recurso “Simulate” permite verificar se o caminho da ferramenta gerado é o pretendido.</p>
-<p>A simulação é iniciada selecionando as operações de interesse no Browser e, em seguida, clicando na opção “Actions > Simulate”  .</p>
- 
+<p>O recurso “Simulate” permite verificar se o caminho da ferramenta gerado é o pretendido. A simulação é iniciada selecionando as operações de interesse no Browser e, em seguida, clicando na opção “Actions > Simulate”  .</p>
 <p>As operações são simuladas na ordem original conforme aparecem no Browser.</p>
 <p>Depois de iniciada, a caixa de diálogo “Simulate” é aberta e o player é exibido na parte inferior da tela. </p>
 <p>Você pode habilitar as caixas de seleção para mostrar o material dentro da simulação. Também é possível mostrar a ferramenta, o caminho e o material individualmente ou em conjunto, ativando ou desativando as respectivas caixas de seleção “Tool”, “Toolpath” e “Stock”.</p>
-
 <p>Para a iniciar a animação da ferramenta, clique no botão “Start” no Simulador.
 A animação pode ser pausada e reproduzida clicando no botão “Pause” e “Start”, respectivamente.
 Para encerrar a simulação clique em “Close” na caixa de diálogo.</p>
 
-
-<br>
 <h3>Pós Processamento</h3>
 
 <p>OK, você projetou seu primeiro modelo e concluiu seus primeiros caminhos de ferramenta. Agora você está se perguntando como fazer a router CNC cortar a peça. Para isso, você precisa de um pós-processador.</p>
@@ -169,75 +164,52 @@ Para gerar o G code, selecione o Setup criado no Browser. Depois de selecionar o
 Na janela “Post Process”, selecione uma pasta para salvar o G code, dê um nome ao arquivo e clique em “Salvar”.
 Um arquivo com a extensão *.tap foi gerado na pasta selecionada. Transfira o arquivo para um pendrive e leve-o até o controlador da router CNC.</p>
  
-
-<br>
 <h2 id="setup">Preparação do equipamento</h2>
-<br>
+
 <p>Antes de iniciar a execução do projeto, são necessários alguns passos para preparar a máquina. Esse procedimento ocorre em 13 etapas, da seguinte forma: </p>
-
-a)	Conecte a pinça de 4mm à porca do spindle e insira a fresa de 4mm.
-
-b)	Com as ferramentas adequadas, fixe o conjunto na extremidade do spindle; 
-
-c)	Posicione a mangueira do exaustor e fixe-a; 
-
-d)	Posicione o material a ser usinado sobre a mesa; 
+ 
+ <ol>
+  <li>Conecte a pinça de 4mm à porca do spindle e insira a fresa de 4mm.</li>
+  <li>Com as ferramentas adequadas, fixe o conjunto na extremidade do spindle; </li>
+  <li>Posicione a mangueira do exaustor e fixe-a; </li>
+  <li>Posicione o material a ser usinado sobre a mesa; </li>
   <p><strong>Importante:</strong> Utilize um material de sacrifício entre a peça e a mesa. Uma chapa de MDF de 6mm é o suficiente.</p>
+  <li>Fixe o com os recursos necessários (parafusos, sargentos, presilhas); </li>
+  <li>No computador da máquina, abra o Mach3Mill; </li>
+  <li>Gire o botão On/Off, para ligar o sistema; </li>
+  <li>Clique no botão “Reset”; </li>
+  <li>Utilizando as setas do teclado (eixo XY), posicione a fresa na origem do material (canto inferior esquerdo); </li>
+  <li>Utilizando as teclas “PageUp” e “PageDown” (eixo Z), toque a ponta da fresa na superfície do material; </li>
+  <p>Dica: A tecla Shift permite o movimento em velocidade maior. Cuidado ao utilizar esta função.</p>
+  <li>Na parte superior da tela, zere as coordenadas X, Y e Z; </li>
+  <li>Afaste a fresa do material por segurança. Cerca de dois centímetros é o bastante.</li>
+  <li>Ligue o exaustor.</li>
+ </ol>
 
-e)	Fixe o com os recursos necessários (parafusos, sargentos, presilhas); 
+ <h2 id="corte">Executando o código</h2>
 
-f)	No computador da máquina, abra o Mach3Mill; 
-
-g)Gire o botão On/Off, para ligar o sistema; 
-
-h)Clique no botão “Reset”; 
-
-i)Utilizando as setas do teclado (eixo XY), posicione a fresa na origem do material (canto inferior esquerdo); 
-
-j)Utilizando as teclas “PageUp” e “PageDown” (eixo Z), toque a ponta da fresa na superfície do material; 
-
-<p>Dica: A tecla Shift permite o movimento em velocidade maior. Cuidado ao utilizar esta função.</p>
-
-k)	Na parte superior da tela, zere as coordenadas X, Y e Z; 
-
-l)	Afaste a fresa do material por segurança. Cerca de dois centímetros é o bastante.
-
-m)	Ligue o exaustor.
-
-
-<br>
-<h2 id="corte">Executando o código</h2>
-<br>
-<p>Antes de executar o trabalho, o operador (e demais pessoas no ambiente) deve colocar os EPI’s obrigatórios (óculos de proteção, abafador concha e máscara para poeiras). <p/>
-<p>Com o desenho configurado, a máquina ajustada e o operador seguro, o trabalho pode ser iniciado.Esse procedimento ocorre em 5 etapas, da seguinte forma: </p>
-
-a) No canto superior esquerdo da tela, clique em “Load Code”; 
-
-b) Na janela que foi aberta, selecione seu arquivo e clique em “Abrir”;
+ <p>Antes de executar o trabalho, o operador (e demais pessoas no ambiente) deve colocar os EPI’s obrigatórios (óculos de proteção, abafador concha e máscara para poeiras). <p/>
+ <p>Com o desenho configurado, a máquina ajustada e o operador seguro, o trabalho pode ser iniciado.Esse procedimento ocorre em 5 etapas, da seguinte forma: </p>
  
-c) Verifique se o arquivo carregado está correto, através da posição e dos valores de “spindle”, “Z” e etc; 
-
-d) Ligue o aspirador; 
-
-e) Clique em “CycleStart”. 
-Supervisione o funcionamento da máquina até o final do processo. Nunca a deixe trabalhando sozinha. Fique atento a possíveis erros durante a fabricação da sua peça. Caso observe algo de errado interrompa o corte pressionando o botão de emergência.
+ <ol>
+  <li>No canto superior esquerdo da tela, clique em “Load Code”; </li>
+  <li>Na janela que foi aberta, selecione seu arquivo e clique em “Abrir”;</li>
+  <li>Verifique se o arquivo carregado está correto, através da posição e dos valores de “spindle”, “Z” e etc; </li>
+  <li>Ligue o aspirador; </li>
+  <li>Clique em “CycleStart”. </li>
+ </ol>
  
+ <p>Supervisione o funcionamento da máquina até o final do processo. Nunca a deixe trabalhando sozinha. Fique atento a possíveis erros durante a fabricação da sua peça. Caso observe algo de errado interrompa o corte pressionando o botão de emergência.</p>
 
-<br>
-<h2 id="final">Finalizando o trabalho</h2>
-<br>
-<p>Após todos os trabalhos serem executados, a máquina movimentará a fresa até a origem, informando que encerrou sua atividade. Para encerrar seu projeto, devem ser seguidas 6 etapas, da seguinte forma: </p>
+ <h2 id="final">Finalizando o trabalho</h2>
 
-a) Pelo teclado, movimente o bico para fora da área trabalhada; 
-
-b) Pressione o “Botão de Emergência” para evitar acidentes; 
-
-c) Remova a fixação da placa e retire-a da mesa; 
-
-d) Com auxílio de ferramentas, remova as pontes (tabs) que prendem a peça à placa; 
-
-e) Gire o botão “Liga Máquina” para desligar o sistema; 
-
-f) No computador, feche o Mach3Mill.
-
+ <p>Após todos os trabalhos serem executados, a máquina movimentará a fresa até a origem, informando que encerrou sua atividade. Para encerrar seu projeto, devem ser seguidas 6 etapas, da seguinte forma: </p>
+ <ol>
+  <li>Pelo teclado, movimente o bico para fora da área trabalhada; </li>
+  <li>Pressione o “Botão de Emergência” para evitar acidentes; </li>
+  <li>Remova a fixação da placa e retire-a da mesa; </li>
+  <li>Com auxílio de ferramentas, remova as pontes (tabs) que prendem a peça à placa; </li>
+  <li>Gire o botão “Liga Máquina” para desligar o sistema; </li>
+  <li>No computador, feche o Mach3Mill.</li>
+ </ol>
 </section>
