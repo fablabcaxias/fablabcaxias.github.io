@@ -34,22 +34,22 @@ category: tutorial
 <br>
 <h3>Crie um desenho 2D</h3>
 <p>Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.</p>
+<ol>
+<li>a)Clique em “Solid> Create> Create Sketch”   .</li>
 
-<p>a)Clique em “Solid> Create> Create Sketch”   .
+<li>b)Selecione o plano XY para desenhar.</li>
 
-<p>b)Selecione o plano XY para desenhar.
+<li>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</li>
 
-<p>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</p>
+<li>c)Clique em “Sketch> Create> Text”  </li>
 
-<p>c)Clique em “Sketch> Create> Text”  
+<li>d)Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
 
-<p>d)Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.
+<li>e)Clique uma vez para posicionar o texto.</li>
 
-<p>e)Clique uma vez para posicionar o texto.
-
-<p>f)Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.
-<p>g)Clique em “OK”.
-
+<li>f)Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.
+<li>g)Clique em “OK”.</li>
+</ol>
 <p>Dica: Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
 
 
