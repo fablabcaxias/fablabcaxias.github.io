@@ -810,7 +810,7 @@ iframe {
 
 /* ====== Tutoriais ============================================================ Tutoriais ============ */ 
 
-#tuto ol {
+.tuto ol {
 	list-style: upper-alpha;
 }
 
