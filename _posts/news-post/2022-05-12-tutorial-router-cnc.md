@@ -211,4 +211,4 @@ Um arquivo com a extensão *.tap foi gerado na pasta selecionada. Transfira o ar
   <li>Gire o botão “Liga Máquina” para desligar o sistema; </li>
   <li>No computador, feche o Mach3Mill.</li>
  </ol>
-</section>
+ 
