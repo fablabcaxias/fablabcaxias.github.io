@@ -72,11 +72,11 @@ hr {
 }
 
 ul {
-   list-style: disc;
+   list-style: none;
 }
 
 ol {
-	list-style: upper-alpha;
+	list-style: none;
 }
 
 
@@ -808,6 +808,11 @@ iframe {
 	background-color: #FFF;
 }
 
+/* ====== Tutoriais ============================================================ Tutoriais ============ */ 
+
+#tuto ol {
+	list-style: upper-alpha;
+}
 
 /* ====== Blog Post ====================================================== Blog Post ========== */
 
