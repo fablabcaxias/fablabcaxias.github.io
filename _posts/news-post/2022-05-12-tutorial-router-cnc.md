@@ -70,7 +70,7 @@ category: tutorial
   <li>Na barra de ferramentas “MANUFACTURE”, clique em “Setup > New Setup”  .</li>
   <p>A caixa de diálogo “Setup” é exibida.</p>
   <li>Na caixa de diálogo “Setup”, selecione o tipo de operação (Operation Type) “Milling”.</li>
-  <li>Preencha a área “Work Coordinate System (WCS)”, para especificar a orientação e a origem do sistema de coordenadas da peça de trabalho.</li
+  <li>Preencha a área “Work Coordinate System (WCS)”, para especificar a orientação e a origem do sistema de coordenadas da peça de trabalho.</li>
   <li>Preencha a área “Model”, para especificar qual modelo está incluído no Setup. Por padrão, todos os modelos na tela são selecionados automaticamente.</li>
   <li>Preencha a guia “Stock”, para definir o tamanho e a forma da peça de trabalho. Mantenha as configurações padrão exceto o campo “Stock Top Offset” que deve ser modificado para “0mm”.</li>
   <li>Clique em “OK”.</li>
@@ -78,6 +78,7 @@ category: tutorial
  
  <h3>Configurando um corte de contorno 2D</h3>
  <h4>Abra a biblioteca de ferramentas</h4>
+ 
  <ol>
   <li>Na barra de ferramentas “MANUFACTURE”, guia “Milling”, selecione “2D > 2D Contour”   .</li>
   <p>A paleta de comandos “2D Contour” é aberta.</p>
@@ -86,6 +87,7 @@ category: tutorial
  </ol>
  
  <h4>Crie e selecione uma nova ferramenta de corte</h4>
+ 
  <ol>
   <li>Clique no botão “New Mill Tool”   .</li>
   <li>Na guia “Cutter”, na lista suspensa “Type”, selecione a opção ”Flat end mill”.</li>
