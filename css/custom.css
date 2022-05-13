@@ -44,7 +44,7 @@ img {
 }
 
 p {
-	margin: 0;
+	margin: 10px;
 }
 
 /* Google Search */
@@ -76,7 +76,7 @@ ul {
 }
 
 ol {
-	list-style: none;
+	list-style: upper-alpha;
 }
 
 
