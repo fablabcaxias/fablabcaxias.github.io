@@ -10,11 +10,14 @@ date: 12/05/2022
 category: tutorial
 ---
 <section class="tuto">
+<br>
 <p>A router CNC é uma máquina capaz de fabricar peças a partir de modelos digitais em duas ou três dimensões, utilizando materiais como madeira, MDF, isopor, metais não ferrosos etc. Ela utiliza ferramentas de corte de diversos tipos para remover o material até que reste apenas o objeto desejado.
 <p>Durante a fabricação da peça, o material removido se transforma em partículas que podem ser espalhar no ambiente. Para evitar esse inconveniente, a máquina conta com um equipamento auxiliar para aspiração do pó, de forma a conter a contaminação e manter baixos os níveis de toxicidade do ar.
 <p>A router CNC não possui painel de controle, apenas botões para ligar e desligar e botão de parada de emergência. Todos os comandos de operação do equipamento são acessados pelo software supervisório que a acompanha (Mach3Mill).
 <p>Para utilizar a router CNC é necessário seguir alguns passos, que serão detalhados a seguir, da preparação de um modelo digital à retirada de uma peça pronta.
+<br>
 <h2> Conteúdo</h2> 
+<br>
 <ul>
 <li><a href="#modelagem">Modelagem 3D com Fusion 360</a></li>
 <li><a href="#gcode">Geração de Gcode para Router CNC</a></li>
@@ -22,111 +25,92 @@ category: tutorial
 <li><a href="#corte">Executando o código</a></li>
 <li><a href="#final">Finalizando o trabalho</a></li>
 </ul>
+<br>
 <h2 id="modelagem">Modelagem 3D com Fusion 360</h2>
+<br>
 <p>A peça a ser fabricada em uma router CNC precisa ser um desenho digital, vetorizado, em formato DXF ou um modelo 3D em formato STL. Softwares como Fusion 360, AutoCAD, SolidWorks, CorelDraw (somente 2D), Adobe Illustrator (somente 2D) são capazes de gerar os desenhos adequados.</p>
 <p>Neste trabalho utilizaremos o software Autodesk Fusion 360, disponível no FabLab. O Fusion 360 nos permite criar um modelo 3D e possui ferramentas para geração do código compatível com a router CNC.</p>
 <p>Abra o software Fusion 360.</p>
 <p>Verifique se o espaço de trabalho DESING está ativo.</p>
- 
+<br>
 <h3>Crie um desenho 2D</h3>
 <p>Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.</p>
-<ol>
-<li>Clique em “Solid> Create> Create Sketch”   .</li>
-<li>Selecione o plano XY para desenhar.</li>
-<p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
-
-<li>Clique em “Sketch> Create> Text”  </li>
-
-<li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
-
-<li>Clique uma vez para posicionar o texto.</li>
-
-<li>Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
-<li>Clique em “OK”.</li>
- <p><strong>Dica:</strong> Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
-
-</ol>
-
-
+ 
+ <ol>
+  <li>Clique em “Solid> Create> Create Sketch”   .</li>
+  <li>Selecione o plano XY para desenhar.</li>
+   <p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
+  <li>Clique em “Sketch> Create> Text”  </li>
+  <li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
+  <li>Clique uma vez para posicionar o texto.</li>
+  <li>Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
+  <li>Clique em “OK”.</li>
+   <p><strong>Dica:</strong> Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
+ </ol>
 
 <h3>Transformando um sketch em um modelo 3D</h3>
-
 <p>Faça a extrusão da letra que você acabou de criar, 15 mm, para converter seu perfil de esboço 2D em geometria 3D.</p>
-<ol>
-<li>Clique em “Solid > Crate> Extrude”  . </li>
- <p>Isso exibe a caixa de diálogo “EXTRUDE”.</p>
 
-<li>Selecione a letra como o perfil que você deseja extrudar. </li>
-
-<li>Arraste a seta azul para cima 15 mm para definir a profundidade da letra.</li>
-
-<p>Dica: Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
-
-<li>Clique em “OK” na caixa de diálogo “EXTRUDE”.</li>
+ <ol>
+  <li>Clique em “Solid > Crate> Extrude”  . Isso exibe a caixa de diálogo “EXTRUDE”.</li>
+  <li>Selecione a letra como o perfil que você deseja extrudar. </li>
+  <li>Arraste a seta azul para cima 15 mm para definir a profundidade da letra.</li>
+   <p><strong>Dica:</strong> Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
+  <li>Clique em “OK” na caixa de diálogo “EXTRUDE”.</li>
  </ol>
 
 <h2 id="gcode">Geração de Gcode para Router CNC</h2>
-
 <h3>Ambiente de trabalho MANUFACTURE (CAM)</h3>
-
 <p>O ambiente de trabalho MANUFACTURE do Fusion 360 contém ferramentas CAM para ajudá-lo a gerar caminhos de ferramenta, programar máquinas CNC e dar vida a seus projetos.</p>
 <p>Para ir para o ambiente de trabalho MANUFACTURE, selecione “MANUFACTURE” na lista suspensa.</p>
 
 <h3>Crie um Setup para operação de fresagem</h3>
-
-<ol> 
-<li>Na barra de ferramentas “MANUFACTURE”, clique em “Setup > New Setup”  .</li>
-<p>A caixa de diálogo “Setup” é exibida.</p>
-
-<li>Na caixa de diálogo “Setup”, selecione o tipo de operação (Operation Type) “Milling”.</li>
-
-<li>Preencha a área “Work Coordinate System (WCS)”, para especificar a orientação e a origem do sistema de coordenadas da peça de trabalho.</li>
-
-<li>Preencha a área “Model”, para especificar qual modelo está incluído no Setup. Por padrão, todos os modelos na tela são selecionados automaticamente.</li>
-
-<li>Preencha a guia “Stock”, para definir o tamanho e a forma da peça de trabalho. Mantenha as configurações padrão exceto o campo “Stock Top Offset” que deve ser modificado para “0mm”.</li>
-
-<li>Clique em “OK”.</li>
+ 
+ <ol>
+  <li>Na barra de ferramentas “MANUFACTURE”, clique em “Setup > New Setup”  .</li>
+  <p>A caixa de diálogo “Setup” é exibida.</p>
+  <li>Na caixa de diálogo “Setup”, selecione o tipo de operação (Operation Type) “Milling”.</li>
+  <li>Preencha a área “Work Coordinate System (WCS)”, para especificar a orientação e a origem do sistema de coordenadas da peça de trabalho.</li
+  <li>Preencha a área “Model”, para especificar qual modelo está incluído no Setup. Por padrão, todos os modelos na tela são selecionados automaticamente.</li>
+  <li>Preencha a guia “Stock”, para definir o tamanho e a forma da peça de trabalho. Mantenha as configurações padrão exceto o campo “Stock Top Offset” que deve ser modificado para “0mm”.</li>
+  <li>Clique em “OK”.</li>
  </ol>
  
-<h3>Configurando um corte de contorno 2D</h3>
-<h4>Abra a biblioteca de ferramentas</h4>
+ <h3>Configurando um corte de contorno 2D</h3>
+ <h4>Abra a biblioteca de ferramentas</h4>
+ <ol>
+  <li>Na barra de ferramentas “MANUFACTURE”, guia “Milling”, selecione “2D > 2D Contour”   .</li>
+  <p>A paleta de comandos “2D Contour” é aberta.</p>
+  <li>Na guia “Tool”    , clique em “Select”.</li>
+  <p>Isso abre a biblioteca de ferramentas.</p>
+ </ol>
+ 
+ <h4>Crie e selecione uma nova ferramenta de corte</h4>
+ <ol>
+  <li>Clique no botão “New Mill Tool”   .</li>
+  <li>Na guia “Cutter”, na lista suspensa “Type”, selecione a opção ”Flat end mill”.</li>
+  <li>No grupo “Geomety”, defina o Diâmetro para 4mm.</li>
+  <li>Para poder cortar toda a altura da peça, aumente o comprimento da fresa para 15 mm.</li>
+  <li>Clique em “OK” para criar a ferramenta.</li>
+  <li>Selecione a nova ferramenta e clique em “OK “para fechar a caixa de diálogo.</li>
+ </ol>
+ 
+ <h4>Defina a velocidade de rotação e avanço</h4>
 
-<p>a)	Na barra de ferramentas “MANUFACTURE”, guia “Milling”, selecione “2D > 2D Contour”   .
-<p>A paleta de comandos “2D Contour” é aberta.</p>
+ <p>No grupo “Feed & Speed”, defina a velocidade do eixo da ferramenta (Spindle Speed) para 15000 RPM e o avanço de corte (Cutting Feedrate) para 800mm/min.</p>
+ <p><strong>Importante:</strong> Defina os parâmetros de velocidade e avanço com base nas recomendações dos fornecedores de ferramentas e no tipo de material.</p>
 
-<p>b)	Na guia “Tool”    , clique em “Select”.
-<p>Isso abre a biblioteca de ferramentas.</p>
-<br>
-<h4>Crie e selecione uma nova ferramenta de corte</h4>
-
-<p>a)	Clique no botão “New Mill Tool”   .
-<p>b)	Na guia “Cutter”, na lista suspensa “Type”, selecione a opção ”Flat end mill”.
-<p>c)	No grupo “Geomety”, defina o Diâmetro para 4mm.
-
-<p>d)	Para poder cortar toda a altura da peça, aumente o comprimento da fresa para 15 mm.
-
-<p>e)	Clique em “OK” para criar a ferramenta.
-<p>f)	Selecione a nova ferramenta e clique em “OK “para fechar a caixa de diálogo.
-
-<br>
-<h4>Defina a velocidade de rotação e avanço</h4>
-
-<p>No grupo “Feed & Speed”, defina a velocidade do eixo da ferramenta (Spindle Speed) para 15000 RPM e o avanço de corte (Cutting Feedrate) para 800mm/min.</p>
-<p>Importante: Defina os parâmetros de velocidade e avanço com base nas recomendações dos fornecedores de ferramentas e no tipo de material.</p>
-<br>
 <h4>Selecione o contorno a ser usinado</h4>
 
-<p>a)	Clique na guia “Geometry”   .
-
-<p>b)	Verifique se o botão “Contourn selection” está ativo para que você possa selecionar a aresta externa da geometria da peça para rodar a ferramenta.
-<p>c)	Mova o ponteiro do mouse sobre a borda inferior.
-
-<p>d)	Quando a borda se destacar, clique nela. A aresta é selecionada automaticamente como uma corrente.
-<p>Observe a linha azul ao redor da peça.</p>
-<p>A seta vermelha deve estar do lado de fora, apontando no sentido horário (CW) ao redor da peça.</p>
-<p>Dica: Você pode reverter a direção de uma aresta selecionada clicando na seta vermelha.</p>
-<br>
+ <ol>
+  <li>Clique na guia “Geometry”   .</li>
+  <li>Verifique se o botão “Contourn selection” está ativo para que você possa selecionar a aresta externa da geometria da peça para rodar a ferramenta.</li>
+  <li>Mova o ponteiro do mouse sobre a borda inferior.</li>
+  <li>Quando a borda se destacar, clique nela. A aresta é selecionada automaticamente como uma corrente.</li>
+  <p>Observe a linha azul ao redor da peça. A seta vermelha deve estar do lado de fora, apontando no sentido horário (CW) ao redor da peça.</p>
+  <p><strong>Dica:</strong> Você pode reverter a direção de uma aresta selecionada clicando na seta vermelha.</p>
+ </ol>
+ 
 <h4>Crie “Tabs” para a peça não sair voando</h4>
 
 <p>Você pode adicionar Tabs ao caminho da ferramenta 2D Contourn para prender a peça com segurança enquanto o material é usinado. As Tabs são muito úteis ao cortar plástico fino ou madeira.</p>
