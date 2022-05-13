@@ -40,7 +40,7 @@ category: tutorial
 
 <li>Selecione o plano XY para desenhar.</li>
 
-<p>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</p>
+<p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
 
 <li>Clique em “Sketch> Create> Text”  </li>
 
@@ -50,8 +50,9 @@ category: tutorial
 
 <li>Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
 <li>Clique em “OK”.</li>
+ <p><strong>Dica:</strong> Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
+
 </ol>
-<p>Dica: Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
 
 
 
