@@ -18,13 +18,13 @@ category: tutorial
 <br>
 <h2> Conteúdo</h2> 
 <br>
-<ol>
+<ul>
 <li><a href="#modelagem">Modelagem 3D com Fusion 360</a></li>
 <li><a href="#gcode">Geração de Gcode para Router CNC</a></li>
 <li><a href="#setup">Preparação do equipamento</a></li>
 <li><a href="#corte">Executando o código</a></li>
 <li><a href="#final">Finalizando o trabalho</a></li>
-</ol>
+</ul>
 <br>
 <h2 id="modelagem">Modelagem 3D com Fusion 360</h2>
 <br>
@@ -36,20 +36,20 @@ category: tutorial
 <h3>Crie um desenho 2D</h3>
 <p>Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.</p>
 <ol>
-<li>a)Clique em “Solid> Create> Create Sketch”   .</li>
+<li>Clique em “Solid> Create> Create Sketch”   .</li>
 
-<li>b)Selecione o plano XY para desenhar.</li>
+<li>Selecione o plano XY para desenhar.</li>
 
-<li>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</li>
+<p>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</p>
 
-<li>c)Clique em “Sketch> Create> Text”  </li>
+<li>Clique em “Sketch> Create> Text”  </li>
 
-<li>d)Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
+<li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
 
-<li>e)Clique uma vez para posicionar o texto.</li>
+<li>Clique uma vez para posicionar o texto.</li>
 
-<li>f)Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
-<li>g)Clique em “OK”.</li>
+<li>Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
+<li>Clique em “OK”.</li>
 </ol>
 <p>Dica: Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
 
