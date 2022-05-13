@@ -4,7 +4,7 @@ type: blog
 teaserlatest: exemplo/full-printed.png
 teaserlist: exemplo/full-printed.png
 title: Orientações para operação de Router CNC
-meta: "Assista ao vídeo criado pelo Fab Lab Barcelona e saiba melhor como a rede Fab Lab conecta pessoas ao redor do mundo."
+meta: "."
 author: Dennison Siqueira
 date: 12/05/2022
 category: tutorial
@@ -47,7 +47,7 @@ category: tutorial
 
 <li>e)Clique uma vez para posicionar o texto.</li>
 
-<li>f)Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.
+<li>f)Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
 <li>g)Clique em “OK”.</li>
 </ol>
 <p>Dica: Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
