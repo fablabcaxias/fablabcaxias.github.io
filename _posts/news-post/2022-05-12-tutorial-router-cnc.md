@@ -9,6 +9,7 @@ author: Dennison Siqueira
 date: 12/05/2022
 category: tutorial
 ---
+<section class="tuto">
 <br>
 <p>A router CNC é uma máquina capaz de fabricar peças a partir de modelos digitais em duas ou três dimensões, utilizando materiais como madeira, MDF, isopor, metais não ferrosos etc. Ela utiliza ferramentas de corte de diversos tipos para remover o material até que reste apenas o objeto desejado.
 <p>Durante a fabricação da peça, o material removido se transforma em partículas que podem ser espalhar no ambiente. Para evitar esse inconveniente, a máquina conta com um equipamento auxiliar para aspiração do pó, de forma a conter a contaminação e manter baixos os níveis de toxicidade do ar.
@@ -259,3 +260,4 @@ e) Gire o botão “Liga Máquina” para desligar o sistema;
 
 f) No computador, feche o Mach3Mill.
 
+</section>
