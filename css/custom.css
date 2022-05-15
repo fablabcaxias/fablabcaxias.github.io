@@ -816,6 +816,11 @@ iframe {
 	padding: 0;
 }
 
+.tuto img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+} 
+
 /* ====== Blog Post ====================================================== Blog Post ========== */
 
 
