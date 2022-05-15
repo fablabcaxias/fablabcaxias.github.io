@@ -36,11 +36,19 @@ category: tutorial
  <p>Comece a desenhar a letra inicial do seu nome, que se tornará a base do modelo 3D, no plano XY.</p>
  
  <ol>
-  <li>Clique em “Solid> Create> Create Sketch”   .</li>
-   <img src="{{ site.url }}/img/blog/tutorial-router/create-sketch.png">
-  <li>Selecione o plano XY para desenhar.</li>
-   <p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
-  <li>Clique em “Sketch> Create> Text”  </li>
+  <div class="row">
+        <div role="main" class="col-md-6">
+         <li>Clique em “Solid> Create> Create Sketch”   .</li>
+       <li>Selecione o plano XY para desenhar.</li>
+      <p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
+        <li>Clique em “Sketch> Create> Text”  </li>
+        </div>
+        <aside role="complementary" class="col-md-6">
+          <img src="{{ site.url }}/img/blog/tutorial-router/create-sketch.png">
+        </aside>
+    </div>
+  
+
    <img src="{{ site.url }}/img/blog/tutorial-router/create-text.png">
   <li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
   <li>Clique na origem e depois em outro ponto para desenhar uma caixa de texto retangular.</li>
