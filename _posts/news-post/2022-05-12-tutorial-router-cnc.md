@@ -37,25 +37,37 @@ category: tutorial
  
  <ol>
   <div class="row">
-        <div role="main" class="col-md-6">
-         <li>Clique em “Solid> Create> Create Sketch”   .</li>
-       <li>Selecione o plano XY para desenhar.</li>
-      <p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
-        <li>Clique em “Sketch> Create> Text”  </li>
-        </div>
-        <aside role="complementary" class="col-md-6">
-          <img src="{{ site.url }}/img/blog/tutorial-router/create-sketch.png">
-        </aside>
-    </div>
+   <div class="col-md-6">
+    <li>Clique em “Solid> Create> Create Sketch”   .</li>
+    <li>Selecione o plano XY para desenhar.</li>
+    <p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
+   </div>
+   <div class="col-md-6">
+    <img src="{{ site.url }}/img/blog/tutorial-router/create-sketch.png">
+   </div>
+  </div>
   
+  <div class="row">
+   <div class="col-md-6">
+    <img src="{{ site.url }}/img/blog/tutorial-router/create-text.png">
+   </div>
+   <div class="col-md-6">
+    <li>Clique em “Sketch> Create> Text”  </li>
+    <li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
+    <li>Clique na origem e depois em outro ponto para desenhar uma caixa de texto retangular.</li>
+   </div>
+  </div>
 
-   <img src="{{ site.url }}/img/blog/tutorial-router/create-text.png">
-  <li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
-  <li>Clique na origem e depois em outro ponto para desenhar uma caixa de texto retangular.</li>
-  <li>Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
-   <img src="{{ site.url }}/img/blog/tutorial-router/editando-text.png">
-  <li>Clique em “OK”.</li>
-   <p><strong>Dica:</strong> Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
+  <div class="row">
+   <div class="col-md-6">
+    <li>Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
+    <li>Clique em “OK”.</li>
+    <p><strong>Dica:</strong> Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
+   </div>
+   <div class="col-md-6">
+    <img src="{{ site.url }}/img/blog/tutorial-router/editando-text.png">
+   </div>
+  </div>
  </ol>
 
 <h3>Transformando um sketch em um modelo 3D</h3>
