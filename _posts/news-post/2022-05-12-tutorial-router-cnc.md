@@ -37,12 +37,15 @@ category: tutorial
  
  <ol>
   <li>Clique em “Solid> Create> Create Sketch”   .</li>
+   <img src="{{ site.url }}/img/blog/tutorial-router/create-sketch.png">
   <li>Selecione o plano XY para desenhar.</li>
    <p><smal>Quando você seleciona o plano, entra na guia de contexto “Sketch”, que contém as ferramentas de Sketch usadas com mais frequência.</smal></p>
   <li>Clique em “Sketch> Create> Text”  </li>
+   <img src="{{ site.url }}/img/blog/tutorial-router/create-text.png">
   <li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
-  <li>Clique uma vez para posicionar o texto.</li>
+  <li>Clique na origem e depois em outro ponto para desenhar uma caixa de texto retangular.</li>
   <li>Selecione as opções desejadas na caixa de diálogo “TEXT”. Digite seu texto; defina a altura da caixa de texto como 100mm (essa altura não corresponde à altura da letra digitada, mas à altura da caixa de texto que pode ser um pouco maior); escolha uma fonte.</li>
+   <img src="{{ site.url }}/img/blog/tutorial-router/editando-text.png">
   <li>Clique em “OK”.</li>
    <p><strong>Dica:</strong> Clique na casinha ao lado do View Cube para visualizar o esboço em seu tamanho e orientação originais. </p>
  </ol>
@@ -52,10 +55,13 @@ category: tutorial
 
  <ol>
   <li>Clique em “Solid > Crate> Extrude”  . Isso exibe a caixa de diálogo “EXTRUDE”.</li>
+   <img src="{{ site.url }}/img/blog/tutorial-router/create-extrude.png">
   <li>Selecione a letra como o perfil que você deseja extrudar. </li>
   <li>Arraste a seta azul para cima 15 mm para definir a profundidade da letra.</li>
+   <img src="{{ site.url }}/img/blog/tutorial-router/editando-extrude.png">
    <p><strong>Dica:</strong> Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
   <li>Clique em “OK” na caixa de diálogo “EXTRUDE”.</li>
+   <img src="{{ site.url }}/img/blog/tutorial-router/extrude-editado.png">
  </ol>
 
 <h2 id="gcode">Geração de Gcode para Router CNC</h2>
