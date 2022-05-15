@@ -74,16 +74,29 @@ category: tutorial
 <p>Faça a extrusão da letra que você acabou de criar, 15 mm, para converter seu perfil de esboço 2D em geometria 3D.</p>
 
  <ol>
-  <li>Clique em “Solid > Crate> Extrude”  . Isso exibe a caixa de diálogo “EXTRUDE”.</li>
-   <img src="{{ site.url }}/img/blog/tutorial-router/create-extrude.png">
-  <li>Selecione a letra como o perfil que você deseja extrudar. </li>
-  <li>Arraste a seta azul para cima 15 mm para definir a profundidade da letra.</li>
-   <img src="{{ site.url }}/img/blog/tutorial-router/editando-extrude.png">
-   <p><strong>Dica:</strong> Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
-  <li>Clique em “OK” na caixa de diálogo “EXTRUDE”.</li>
-   <img src="{{ site.url }}/img/blog/tutorial-router/extrude-editado.png">
- </ol>
+    <div class="row">
+   <div class="col-md-6">
+       <img src="{{ site.url }}/img/blog/tutorial-router/create-extrude.png">
+   </div>
+   <div class="col-md-6">
+    <li>Clique em “Solid > Crate> Extrude”  . Isso exibe a caixa de diálogo “EXTRUDE”.</li>
+   </div>
+  </div>
 
+  <div class="row">
+   <div class="col-md-6">
+    <li>Selecione a letra como o perfil que você deseja extrudar. </li>
+    <li>Arraste a seta azul para cima 15 mm para definir a profundidade da letra.</li>
+    <p><strong>Dica:</strong> Se você não pode arrastar o mouse para exatamente 15 mm, digite “15” no campo “Distance” e pressione “Enter”.</p>
+    <li>Clique em “OK” na caixa de diálogo “EXTRUDE”.</li>
+   </div>
+   <div class="col-md-6">
+    <img src="{{ site.url }}/img/blog/tutorial-router/editando-extrude.png">
+   </div>
+  </div>
+ </ol>     
+ <img src="{{ site.url }}/img/blog/tutorial-router/extrude-editado.png">
+ 
 <h2 id="gcode">Geração de Gcode para Router CNC</h2>
 <h3>Ambiente de trabalho MANUFACTURE (CAM)</h3>
 <p>O ambiente de trabalho MANUFACTURE do Fusion 360 contém ferramentas CAM para ajudá-lo a gerar caminhos de ferramenta, programar máquinas CNC e dar vida a seus projetos.</p>
