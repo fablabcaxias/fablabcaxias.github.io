@@ -811,9 +811,9 @@ iframe {
 /* ====== Tutoriais ============================================================ Tutoriais ============ */ 
 
 .tuto ol {
-	list-style-type: decimal;
- 	margin: 0;
-	padding: 0;
+	list-style-type: decimal inside;
+ 	margin: 10px;
+	padding: 0px;
 }
 
 .tuto img {
