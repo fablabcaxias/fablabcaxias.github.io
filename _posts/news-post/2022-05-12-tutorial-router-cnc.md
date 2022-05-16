@@ -55,6 +55,7 @@ category: tutorial
     <li>Clique em “Sketch> Create> Text”  </li>
     <li>Passe o mouse sobre a origem do esboço. O cursor se encaixa automaticamente neste local.</li>
     <li>Clique na origem e depois em outro ponto para desenhar uma caixa de texto retangular.</li>
+     <img src="{{ site.url }}/img/blog/tutorial-router/caixa-de-texto.png">
    </div>
   </div>
 
