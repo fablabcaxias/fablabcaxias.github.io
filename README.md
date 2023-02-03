@@ -1,4 +1,4 @@
-# fablabbcn-web
+# Fablab Caxias
 This is the repo for the [FabLabBCN website](https://fablabbcn.org)
 
 ## Info
