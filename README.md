@@ -1,5 +1,5 @@
 # Fablab Caxias
-This is the repo for the [FabLabBCN website](https://fablabbcn.org)
+This is the repo for the [FabLab Caxias website]([(https://fablabcaxias.github.io/)])
 
 ## Info
 * This page is hosted on Github Pages .
